@@ -25,4 +25,4 @@ I am a developer, hardware tinkerer, and a little enthusiast of stars.
 *   📧 **Email:** j44soft@gmail.com
 
 ### ⚡ Fun fact:
-😂 My code is about 30-90% written by AI, but 90% of the hardware short-circuits are my own doing!
+😂 My code is about 35-90% written by AI, but 90% of the hardware short-circuits are my own doing!
