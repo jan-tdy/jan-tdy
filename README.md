@@ -7,6 +7,8 @@ I am a developer, hardware tinkerer, and a little enthusiast of stars.
 *   **Devcontrol Home**: Building a robust, fully local smart home automation system based on Home Assistant (HAOS) and Raspberry Pi.
 *   Developing custom hardware solutions, environmental monitoring sensors, and more.
 
+![](./profile-3d-contrib/profile-season-animate.svg)
+
 ### 🛠️ Tech & Tools:
 ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=flat-square&logo=Raspberry-Pi&logoColor=white)
 ![Home Assistant](https://img.shields.io/badge/-Home_Assistant-41BDF5?style=flat-square&logo=home-assistant&logoColor=white)
