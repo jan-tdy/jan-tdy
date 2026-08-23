@@ -5,25 +5,26 @@ I am a developer, hardware tinkerer, and a little enthusiast of stars.
 ### 🔭 What I'm currently working on:
 *   **DevControl 2 System for Bombol.Space**: Setting up and managing a control system for a telescope hosting facility in Piconcillo.
 *   **Devcontrol Home**: Building a robust, fully local smart home automation system based on Home Assistant (HAOS) and Raspberry Pi.
+*   **Visual Astro**: Building an open-source web app for CCD and visual astronomy measurements, featuring a comprehensive suite of essential tools.
 *   Developing custom hardware solutions, environmental monitoring sensors, and more.
 
 ![](./profile-3d-contrib/profile-season-animate.svg)
 
 ### 🛠️ Tech & Tools:
-![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=flat-square&logo=Raspberry-Pi&logoColor=white)
-![Home Assistant](https://img.shields.io/badge/-Home_Assistant-41BDF5?style=flat-square&logo=home-assistant&logoColor=white)
-![MQTT](https://img.shields.io/badge/-MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
-![Android](https://img.shields.io/badge/-Android-3DDC84?style=flat-square&logo=android&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![LaTeX](https://img.shields.io/badge/-LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
-![YAML](https://img.shields.io/badge/-YAML-CB171E?style=flat-square&logo=yaml&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Raspberry Pi](https://shields.io)
+![Home Assistant](https://shields.io)
+![MQTT](https://shields.io)
+![Android](https://shields.io)
+![Linux](https://shields.io)
+![LaTeX](https://shields.io)
+![YAML](https://shields.io)
+![Python](https://shields.io)
 
 *   **Hardware:** Raspberry Pi (4 & 5), Microcontrollers, DIY Electronics
 *   **Software & Protocols:** Home Assistant OS, MQTT, Local Automations
 
 ### 📫 How to reach me:
-*   🌐 **Website:** [j44soft.webnode.sk](https://j44soft.webnode.sk/)
+*   🌐 **Website:** I don't have time to update it...
 *   📧 **Email:** j44soft@gmail.com
 
 ### ⚡ Fun fact:
