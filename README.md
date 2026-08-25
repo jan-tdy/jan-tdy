@@ -1,6 +1,6 @@
 ## Hi there, I'm Ján from Slovakia 👋
 
-I am a developer, hardware tinkerer, and a little enthusiast of stars.
+I am a developer, hardware tinkerer, and a little enthusiast of stars. Long time user of Home Assistant.
 
 ### 🔭 What I'm currently working on:
 *   **DevControl 2 System for Bombol.Space**: Setting up and managing a control system for a telescope hosting facility in Piconcillo.
