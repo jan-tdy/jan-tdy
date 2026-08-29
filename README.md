@@ -19,6 +19,7 @@ I am a developer, hardware tinkerer, and a little enthusiast of stars. Long time
 ![LaTeX](https://img.shields.io/badge/-LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
 ![YAML](https://img.shields.io/badge/-YAML-CB171E?style=flat-square&logo=yaml&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)
 
 *   **Hardware:** Raspberry Pi (4 & 5), Microcontrollers, DIY Electronics
 *   **Software & Protocols:** Home Assistant OS, MQTT, Local Automations
