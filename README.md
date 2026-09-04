@@ -4,6 +4,12 @@ I am a developer, hardware tinkerer, and a little enthusiast of stars. Long time
 
 **I create useful astronomical tools and H.A. integrations to make the world a better place to live.**
 
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Ftapovac-adv&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/tapovac-adv)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fvisual-astro&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/visual-astro)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Ffridge-core&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/fridge-core)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fha-indi-client&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/ha-indi-client)
+
+
 ### 🔭 What I'm currently working on:
 *   **DevControl 2 System for Bombol.Space**: Setting up and managing a control system for a telescope hosting facility in Piconcillo.
 *   **DevControl Home**: Building a robust, fully local smart home automation system based on Home Assistant (HAOS) and Raspberry Pi.
