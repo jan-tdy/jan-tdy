@@ -8,6 +8,8 @@ I am a developer, hardware tinkerer, and a little enthusiast of stars. Long time
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fvisual-astro&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/visual-astro)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Ffridge-core&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/fridge-core)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fha-indi-client&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/ha-indi-client)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fcodemaster&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/codemaster)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fha-attribute-graph&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/ha-attribute-graph)
 
 
 ### 🔭 What I'm currently working on:
