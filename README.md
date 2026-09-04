@@ -2,7 +2,7 @@
 
 I am a developer, hardware tinkerer, and a little enthusiast of stars. Long time user of Home Assistant.
 
-I create useful astronomical tools and H.A. integrations to make the world a better place to live.
+**I create useful astronomical tools and H.A. integrations to make the world a better place to live.**
 
 ### 🔭 What I'm currently working on:
 *   **DevControl 2 System for Bombol.Space**: Setting up and managing a control system for a telescope hosting facility in Piconcillo.
