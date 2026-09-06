@@ -1,8 +1,10 @@
 ## Hi there, I'm Ján from Slovakia 👋
 
-I am a developer, hardware tinkerer, and a little enthusiast of stars. Long time user of Home Assistant.
+I am a developer, hardware tinkerer, and a little enthusiast of stars. Long-time user of Home Assistant.
 
 **I create useful astronomical tools and H.A. integrations to make the world a better place to live.**
+
+I cannot fix all issues on all my repos in one day, but you can view my issue and pr queue [here](https://github.com/issues/assigned?q=is%3Aissue+or+is%3Apr+state%3Aopen+archived%3Afalse+user%3Ajan-tdy+sort%3Acreated-asc)
 
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Ftapovac-adv&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/tapovac-adv)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fvisual-astro&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/visual-astro)
@@ -39,4 +41,4 @@ I am a developer, hardware tinkerer, and a little enthusiast of stars. Long time
 *   📧 **Email:** j44soft@gmail.com
 
 ### ⚡ Fun fact:
-😂 My code is about 35-90% written by AI, but 90% of the hardware short-circuits are my own doing!
+😂 My code is about 35-90% written by AI, but 90% of the hardware short circuits are my own doing!
