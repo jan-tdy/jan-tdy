@@ -23,7 +23,7 @@ A robust, fully local smart home automation system based on Home Assistant (HAOS
 
 ### 🛰️ DevControl 2 System for Bombol.Space
 Setting up and managing a control system for a telescope hosting facility in Piconcillo. Professional-grade telescope control and monitoring.
-
+**Docs:** [devcontrol2.gitbook.io](https://devcontrol2.gitbook.io/)
 
 ### 🔌 HA INDI Client
 Home Assistant integration for INDI system, enabling professional astronomy equipment control.
@@ -38,17 +38,15 @@ My app store...
 **Repository:** [jan-tdy/codemaster](https://github.com/jan-tdy/codemaster)
 
 ### 🖨️ Linux Print
-Linux printing utilities and solutions.
+A Linux PyQt5 app for not only plotters.
 
 **Repository:** [jan-tdy/linux-print](https://github.com/jan-tdy/linux-print)
 
 ## Hardware Projects
 
 I also work on custom hardware solutions, including:
-- Environmental monitoring sensors
 - DIY electronics and microcontroller projects
-- Raspberry Pi-based automation systems
-- CCD camera integrations
+- ESPHome smart home control displays
 
 ## Tech Stack
 
