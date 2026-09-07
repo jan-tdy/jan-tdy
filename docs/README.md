@@ -42,7 +42,49 @@ I create useful astronomical tools and H.A. integrations to make the world a bet
 *   **DevControl Home**: Building a robust, fully local smart home automation system based on Home Assistant (HAOS) and Raspberry Pi.
 *   **Visual Astro**: Building an open-source web app for CCD and visual astronomy measurements, featuring a comprehensive suite of essential tools.
 
-![](./profile-3d-contrib/profile-season-animate.svg)
+![](/profile-3d-contrib/profile-season-animate.svg)
+
+## My coding skills
+Okay, as mentioned below, most of my code is AI-generated.
+So these are my real skills:
+
+- Markdown
+  - Reading
+    - I understand almost everything normal!
+  - Writing
+    - I can write almost everything except for maybe tables and things like that.
+- YAML
+  - Reading
+    - I do not understand some advanced things, but I am definitely better at it than at HTML.
+  - Writing
+    - Editing names, variables, etc? No problem. Writing from scratch? No, thanks.
+- HTML
+  - Reading
+    - I can understand what it does...
+  - Writing
+    - Like, I know a little, but HTML is definitely not my favourite language.
+- Python
+  - Reading
+    - I understand some non-GUI programs under 100lines!
+  - Writing
+    - I can write some very simple code (print, math, etc.)...
+- JavaScript
+  - Reading
+    - Only with comments...
+  - Writing
+    - Um, sorry, but no.
+- LaTeX
+  - Reading
+    - Give me the docs right now! Oh, what an ugly output...
+  - Writing
+    - Ok, I can edit some variables, but this is not my language!
+- TypeScript
+  - Reading
+    - I understand maybe as a cat can understand.
+  - Writing
+    - I know absolutely nothing!
+   
+**BTW: this web page is made using Markdown and HTML, and only about 15% is AI-generated code!** 
 
 ## 🛠️ Tech & Tools
 
