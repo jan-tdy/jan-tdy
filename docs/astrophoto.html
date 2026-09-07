@@ -5,24 +5,40 @@ permalink: /astrophoto
 ---
 
 <h2>🌟 {{ page.title }}</h2>
-<p class="subtitle">An automatic visual feed scanning directly from the 'assets/astro/' image folder.</p>
+<p class="subtitle"Sometimes I take shots of the sky using a mobile phone...</p>
 
 <div class="photo-grid">
-    <!-- 1. Look through all static files in the repository -->
     {% for file in site.static_files %}
-        <!-- 2. Filter files to only show files inside your specific folder path -->
         {% if file.path contains '/assets/astro/' %}
-            <!-- 3. Ensure we only load standard image extension files -->
             {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png' or file.extname == '.gif' %}
+                
+                <!-- 1. Break down filename string by hyphens -->
+                {% assign name_parts = file.basename | split: "-" %}
+                
+                <!-- 2. Reconstruct the precise capture date from the first 3 parts (DD, MM, YYYY) -->
+                {% capture captured_date %}{{ name_parts[0] }}/{{ name_parts[1] }}/{{ name_parts[2] }}{% endcapture %}
+
+                <!-- 3. Extract and beautifully merge the remaining parts for the descriptive title -->
+                {% assign title_words = "" | split: "," %}
+                {% for part in name_parts offset:3 %}
+                    {% assign title_words = title_words | push: part %}
+                {% endfor %}
+                {% assign photo_title = title_words | join: " " | capitalize %}
+
                 <div class="photo-card">
                     <div class="photo-wrapper">
-                        <a href="{{ file.path | relative_url }}" target="_blank">
-                            <img src="{{ file.path | relative_url }}" alt="{{ file.basename }}" loading="lazy">
-                        </a>
+                        <!-- Clicking this image triggers the lightbox overlay -->
+                        <img src="{{ file.path | relative_url }}" 
+                             alt="{{ photo_title }} — Shot on {{ captured_date }}" 
+                             class="gallery-trigger"
+                             loading="lazy">
                     </div>
                     <div class="photo-info">
-                        <!-- Automatically displays the filename as the title, removing '-' or '_' symbols -->
-                        <h3 class="photo-title">{{ file.basename | replace: '-', ' ' | replace: '_', ' ' }}</h3>
+                        <h3 class="photo-title">{{ photo_title }}</h3>
+                        
+                        <div class="metadata-specs">
+                            <span class="meta-item">📅 {{ captured_date }}</span>
+                        </div>
                     </div>
                 </div>
             {% endif %}
@@ -30,14 +46,21 @@ permalink: /astrophoto
     {% endfor %}
 </div>
 
+<!-- Lightbox / Gallery Viewer Modal -->
+<div id="galleryModal" class="modal">
+    <span class="close-btn">&times;</span>
+    <img class="modal-content" id="modalImg">
+    <div id="modalCaption" class="modal-caption"></div>
+</div>
+
 <style>
     .subtitle { color: #8b949e; margin-bottom: 40px; font-size: 1.1rem; }
 
-    /* Responsive Grid for Images */
+    /* Responsive Phone-Friendly Grid */
     .photo-grid { 
         display: grid; 
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-        gap: 25px; 
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+        gap: 20px; 
         margin-top: 30px;
     }
     
@@ -47,33 +70,132 @@ permalink: /astrophoto
         overflow: hidden; 
         border: 1px solid #30363d;
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
-        transition: transform 0.2s ease, border-color 0.2s ease;
-    }
-    .photo-card:hover {
-        transform: translateY(-4px);
-        border-color: #58a6ff;
+        display: flex;
+        flex-direction: column;
     }
 
     .photo-wrapper {
-        width: 100%;
-        height: 250px;
+        cursor: pointer;
         overflow: hidden;
-        background-color: #0d1117;
+        aspect-ratio: 4 / 3; /* Standard capture aspect ratio */
+        background: #0d1117;
+    }
+
+    .photo-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.2s ease;
+    }
+
+    .photo-wrapper:hover img {
+        transform: scale(1.03);
+    }
+
+    .photo-info {
+        padding: 15px;
+        flex-grow: 1;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
     }
-    
-    .photo-card img { 
-        width: 100%; 
-        height: 100%; 
-        object-fit: cover; 
-        transition: transform 0.3s ease;
+
+    .photo-title {
+        margin: 0 0 8px 0;
+        font-size: 1.1rem;
+        color: #c9d1d9;
     }
-    .photo-card:hover img {
-        transform: scale(1.04);
+
+    .metadata-specs {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        font-size: 0.8rem;
+        color: #8b949e;
+        border-top: 1px solid #21262d;
+        padding-top: 8px;
     }
-    
-    .photo-info { padding: 12px 15px; background: #0d1117; }
-    .photo-title { color: #f0f6fc; font-size: 1rem; font-weight: 500; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+    /* Minimalist Lightbox Overlay */
+    .modal {
+        display: none; 
+        position: fixed; 
+        z-index: 9999; 
+        padding-top: 40px; 
+        left: 0; top: 0;
+        width: 100%; height: 100%; 
+        overflow: auto; 
+        background-color: rgba(10, 12, 16, 0.95); 
+    }
+
+    .modal-content {
+        margin: auto;
+        display: block;
+        max-width: 95%;
+        max-height: 80vh;
+        object-fit: contain;
+    }
+
+    .modal-caption {
+        margin: auto;
+        display: block;
+        width: 85%;
+        text-align: center;
+        color: #8b949e;
+        padding: 15px 0;
+        font-size: 1rem;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 15px; right: 25px;
+        color: #8b949e;
+        font-size: 35px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: color 0.2s;
+    }
+
+    .close-btn:hover { color: #f0f6fc; }
+
+    @media only screen and (max-width: 700px){
+        .modal-content { max-width: 100%; }
+    }
 </style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const modal = document.getElementById("galleryModal");
+        const modalImg = document.getElementById("modalImg");
+        const captionText = document.getElementById("modalCaption");
+        const closeBtn = document.querySelector(".close-btn");
+
+        // Action when clicking gallery images
+        document.querySelectorAll(".gallery-trigger").forEach(img => {
+            img.addEventListener("click", function() {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            });
+        });
+
+        // Close when clicking (X)
+        closeBtn.addEventListener("click", function() {
+            modal.style.display = "none";
+        });
+
+        // Close when clicking dark background
+        modal.addEventListener("click", function(e) {
+            if (e.target === modal || e.target === captionText) {
+                modal.style.display = "none";
+            }
+        });
+
+        // Close when pressing Escape key
+        document.addEventListener("keydown", function(e) {
+            if (e.key === "Escape") {
+                modal.style.display = "none";
+            }
+        });
+    });
+</script>
