@@ -5,44 +5,71 @@ permalink: /astrophoto
 ---
 
 <h2>🌟 {{ page.title }}</h2>
-<p class="subtitle"Sometimes I take shots of the sky using a mobile phone...</p>
+<p class="subtitle">Sometimes I take shots of the sky using a mobile phone...</p>
+
+<!-- 1. Build a temporary sortable index array -->
+{% assign sorted_astro_files = "" | split: "," %}
+
+{% for file in site.static_files %}
+    {% if file.path contains '/assets/astro/' %}
+        {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png' or file.extname == '.gif' %}
+            
+            {% assign name_parts = file.basename | split: "-" %}
+            
+            <!-- Extract components safely assuming DD-MM-YYYY structure -->
+            {% assign day = name_parts[0] %}
+            {% assign month = name_parts[1] %}
+            {% assign year = name_parts[2] %}
+            
+            <!-- Create a reverse numerical string key: YYYYMMDD -->
+            {% capture sort_key %}{{ year }}{{ month }}{{ day }}{% endcapture %}
+            
+            <!-- Construct data packet entry separated by unique split strings (:::) -->
+            {% capture item_data %}{{ sort_key }}:::{{ file.path }}:::{{ day }}/{{ month }}/{{ year }}{% endcapture %}
+            {% assign sorted_astro_files = sorted_astro_files | push: item_data %}
+
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+<!-- 2. Sort the array numerically by our YYYYMMDD key, then reverse it for newest first -->
+{% assign sorted_astro_files = sorted_astro_files | sort | reverse %}
 
 <div class="photo-grid">
-    {% for file in site.static_files %}
-        {% if file.path contains '/assets/astro/' %}
-            {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png' or file.extname == '.gif' %}
-                
-                <!-- 1. Break down filename string by hyphens -->
-                {% assign name_parts = file.basename | split: "-" %}
-                
-                <!-- 2. Reconstruct the precise capture date from the first 3 parts (DD, MM, YYYY) -->
-                {% capture captured_date %}{{ name_parts[0] }}/{{ name_parts[1] }}/{{ name_parts[2] }}{% endcapture %}
+    {% for item in sorted_astro_files %}
+        <!-- Extract individual fields from array layout packet -->
+        {% assign fields = item | split: ":::" %}
+        {% assign img_path = fields[1] %}
+        {% assign captured_date = fields[2] %}
+        
+        <!-- Get base filename from full path to build titles safely -->
+        {% assign file_path_parts = img_path | split: "/" %}
+        {% assign filename_with_ext = file_path_parts | last %}
+        {% assign filename_clean = filename_with_ext | split: "." | first %}
+        {% assign name_parts = filename_clean | split: "-" %}
 
-                <!-- 3. Extract and beautifully merge the remaining parts for the descriptive title -->
-                {% assign title_words = "" | split: "," %}
-                {% for part in name_parts offset:3 %}
-                    {% assign title_words = title_words | push: part %}
-                {% endfor %}
-                {% assign photo_title = title_words | join: " " | capitalize %}
+        <!-- Clean text title dynamically -->
+        {% assign title_words = "" | split: "," %}
+        {% for part in name_parts offset:3 %}
+            {% assign title_words = title_words | push: part %}
+        {% endfor %}
+        {% assign photo_title = title_words | join: " " | capitalize %}
 
-                <div class="photo-card">
-                    <div class="photo-wrapper">
-                        <!-- Clicking this image triggers the lightbox overlay -->
-                        <img src="{{ file.path | relative_url }}" 
-                             alt="{{ photo_title }} — Shot on {{ captured_date }}" 
-                             class="gallery-trigger"
-                             loading="lazy">
-                    </div>
-                    <div class="photo-info">
-                        <h3 class="photo-title">{{ photo_title }}</h3>
-                        
-                        <div class="metadata-specs">
-                            <span class="meta-item">📅 {{ captured_date }}</span>
-                        </div>
-                    </div>
+        <div class="photo-card">
+            <div class="photo-wrapper">
+                <img src="{{ img_path | relative_url }}" 
+                     alt="{{ photo_title }} — Shot on {{ captured_date }}" 
+                     class="gallery-trigger"
+                     loading="lazy">
+            </div>
+            <div class="photo-info">
+                <h3 class="photo-title">{{ photo_title }}</h3>
+                
+                <div class="metadata-specs">
+                    <span class="meta-item">📅 {{ captured_date }}</span>
                 </div>
-            {% endif %}
-        {% endif %}
+            </div>
+        </div>
     {% endfor %}
 </div>
 
@@ -77,7 +104,7 @@ permalink: /astrophoto
     .photo-wrapper {
         cursor: pointer;
         overflow: hidden;
-        aspect-ratio: 4 / 3; /* Standard capture aspect ratio */
+        aspect-ratio: 4 / 3;
         background: #0d1117;
     }
 
@@ -116,7 +143,7 @@ permalink: /astrophoto
         padding-top: 8px;
     }
 
-    /* Minimalist Lightbox Overlay */
+    /* Lightbox Overlay Styles */
     .modal {
         display: none; 
         position: fixed; 
@@ -170,7 +197,6 @@ permalink: /astrophoto
         const captionText = document.getElementById("modalCaption");
         const closeBtn = document.querySelector(".close-btn");
 
-        // Action when clicking gallery images
         document.querySelectorAll(".gallery-trigger").forEach(img => {
             img.addEventListener("click", function() {
                 modal.style.display = "block";
@@ -179,19 +205,16 @@ permalink: /astrophoto
             });
         });
 
-        // Close when clicking (X)
         closeBtn.addEventListener("click", function() {
             modal.style.display = "none";
         });
 
-        // Close when clicking dark background
         modal.addEventListener("click", function(e) {
             if (e.target === modal || e.target === captionText) {
                 modal.style.display = "none";
             }
         });
 
-        // Close when pressing Escape key
         document.addEventListener("keydown", function(e) {
             if (e.key === "Escape") {
                 modal.style.display = "none";
