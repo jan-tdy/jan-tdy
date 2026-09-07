@@ -51,6 +51,7 @@ So these are my real coding skills:
 <details>
 
 <summary>Open this expandable!</summary>
+
 - Markdown
   - Reading
     - I understand almost everything normal!
