@@ -12,28 +12,28 @@ permalink: /projects
 Building an open-source web app for CCD and visual astronomy measurements, featuring a comprehensive suite of essential tools.
 
 **Repository:** [jan-tdy/visual-astro](https://github.com/jan-tdy/visual-astro)
+**Web:** [japysoft.bombol.space](https://japysoft.bombol.space)
 
 ### 🏠 DevControl Home
-A robust, fully local smart home automation system based on Home Assistant (HAOS) and Raspberry Pi. Complete control without cloud dependencies.
+A robust, fully local smart home automation system based on Home Assistant (HAOS) and Raspberry Pi. Complete control without cloud dependencies
+
+  - ❄️ Fridge Core **Repository:** [jan-tdy/fridge-core](https://github.com/jan-tdy/fridge-core)
+  - ❄️ Fridge Card **Repository:** [jan-tdy/fridge-card](https://github.com/jan-tdy/fridge-card)
+  - 🧹 Tapovac ADV **Repository:** [jan-tdy/tapovac-adv](https://github.com/jan-tdy/tapovac-adv)
 
 ### 🛰️ DevControl 2 System for Bombol.Space
 Setting up and managing a control system for a telescope hosting facility in Piconcillo. Professional-grade telescope control and monitoring.
 
-### ❄️ Fridge Core
-**Repository:** [jan-tdy/fridge-core](https://github.com/jan-tdy/fridge-core)
 
 ### 🔌 HA INDI Client
-Home Assistant integration for INDI protocol, enabling professional astronomy equipment control.
+Home Assistant integration for INDI system, enabling professional astronomy equipment control.
 
 **Repository:** [jan-tdy/ha-indi-client](https://github.com/jan-tdy/ha-indi-client)
+**Repository:** [jan-tdy/ha-indi-card](https://github.com/jan-tdy/ha-indi-card)
 
-### 🎓 Tapovac ADV
-Advanced astronomy tools and utilities.
-
-**Repository:** [jan-tdy/tapovac-adv](https://github.com/jan-tdy/tapovac-adv)
 
 ### 💻 CodeMaster
-Development utilities and tools.
+My app store...
 
 **Repository:** [jan-tdy/codemaster](https://github.com/jan-tdy/codemaster)
 
