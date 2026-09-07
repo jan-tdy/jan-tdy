@@ -1,0 +1,13 @@
+# 1. Disable the standard built-in theme
+# theme: minima 
+
+# 2. Tell GitHub Pages to pull the latest unreleased Minima code
+remote_theme: jekyll/minima
+
+# 3. Activate the remote theme plugin
+plugins:
+  - jekyll-remote-theme
+
+# 4. Configure Minima to use the adaptive layout
+minima:
+  skin: auto
