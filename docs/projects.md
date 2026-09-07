@@ -24,7 +24,7 @@ A robust, fully local smart home automation system based on Home Assistant (HAOS
 ### 🛰️ DevControl 2 System for Bombol.Space
 Setting up and managing a control system for a telescope hosting facility in Piconcillo. Professional-grade telescope control and monitoring.
 **Docs:** [devcontrol2.gitbook.io](https://devcontrol2.gitbook.io/)
-**I am aslo active on the H.A. Community:** [community.home-assistant.io/u/jan-tdy/summary](https://community.home-assistant.io/u/jan-tdy/summary)
+**I am aslo active on the H.A. Community:** [https://community.home-assistant.io/u/jan-tdy/summary](https://community.home-assistant.io/u/jan-tdy/activity/topics)
 
 ### 🔌 HA INDI Client
 Home Assistant integration for INDI system, enabling professional astronomy equipment control.
