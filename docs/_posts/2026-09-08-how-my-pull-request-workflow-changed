@@ -1,0 +1,42 @@
+---
+layout: post
+title: "How my pull request workflow changed"
+date: 2026-09-08
+state: DRAFT
+---
+
+## The start of my coding experience (cca 2025) - Commit system
+In Slovakia, for the Astronomical Observatory in Kolonica, I made a simple Tkinter Python program for controlling a USB surge protector using AI. It worked; I added more features to it.
+But everything was copy-pasted from an AI chat, and that AI was often "stupid", it was simply hard to do.
+
+
+## Discovery of PRs and Claude Code (2026)
+I wanted to add support for some Waste Collector to mampfes/hacs-waste-collection-schedule, and that is the first time I used Google Antigravity; I was amazed, but then I reached my limit.
+That is approximately when i discovered PRs.
+Then i continued contributing to mampfes/hacs-waste-collection-schedule with Google Gemini and thanks to amazing maintainers of mampfes/hacs-waste-collection-schedule i discovered Claude Code, that chenged everything!
+Thank you very much **credits here**!
+So that is when everything changed.
+- I no longer used commits but PRs
+- I made more and more programs with that amazing agentic AI including visual-astro (worth menitiong i discovered Lovable few months before Claude Code)
+- The AI (Claude Code) was smarter, workid with GitHub directly and even more
+
+## Discovery of CodeRabbit (few days ago)
+And now, few days ago, i discovered CodeRabbit (yeah, AI started talking with AI under my eyes)
+It was free and found bugs in Claude Code code that was good but now is EVEN better.
+Also worth mentioning that few weeks ago i discovered Vercel previews wich helped with my web apps like visual-astro - i no longer needed to merge in order to see if it looks like it hsould.
+
+
+## The future
+Is crazy.
+AI will review what other AI made (and the ywould talk to each other) and that will be reviewed by another AI and the result will be reviewd by me.
+
+# Hello World!
+
+This is my NOT  first blog post written in **Markdown**. Jekyll automatically reads this file, converts it into pristine HTML, and drops it into our custom page layout templates.
+
+### Why Markdown?
+* It's incredibly clean.
+* It is easy to write.
+* No messy HTML tags are required for paragraphs anymore!
+
+Feel free to look around!
