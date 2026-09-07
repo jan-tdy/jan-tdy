@@ -1,119 +1,79 @@
 ---
-layout: null
+layout: default
 title: Astrophotography Gallery
+permalink: /astrophoto
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <style>
-        /* Shared Space-Theme Palette */
-        body { 
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
-            line-height: 1.6; 
-            max-width: 1100px; 
-            margin: 40px auto; 
-            padding: 0 20px; 
-            color: #e0e6ed; 
-            background-color: #0f141c; 
-        }
-        
-        /* Navigation Links Layout */
-        nav { margin-bottom: 30px; display: flex; gap: 20px; border-bottom: 1px solid #1f2937; padding-bottom: 15px; }
-        nav a { color: #9ca3af; text-decoration: none; font-weight: 500; }
-        nav a:hover, nav a.active { color: #38bdf8; border-bottom: 2px solid #38bdf8; padding-bottom: 13px; }
-        
-        h1 { color: #ffffff; margin-bottom: 10px; }
-        .subtitle { color: #9ca3af; margin-bottom: 40px; }
 
-        /* Responsive Grid for Images */
-        .photo-grid { 
-            display: grid; 
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-            gap: 25px; 
-        }
-        
-        .photo-card { 
-            background: #1e293b; 
-            border-radius: 10px; 
-            overflow: hidden; 
-            border: 1px solid #334155;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-            transition: transform 0.2s ease, border-color 0.2s ease;
-        }
-        .photo-card:hover {
-            transform: translateY(-4px);
-            border-color: #38bdf8;
-        }
+<h2>🌟 {{ page.title }}</h2>
+<p class="subtitle">An automatic visual feed scanning directly from the 'assets/astro/' image folder.</p>
 
-        .photo-wrapper {
-            width: 100%;
-            height: 250px;
-            overflow: hidden;
-            background-color: #0b0f17;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .photo-card img { 
-            width: 100%; 
-            height: 100%; 
-            object-fit: cover; 
-            transition: transform 0.3s ease;
-        }
-        .photo-card:hover img {
-            transform: scale(1.04);
-        }
-        
-        .photo-info { padding: 12px 15px; background: #111827; }
-        .photo-title { color: #ffffff; font-size: 1rem; font-weight: 500; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    </style>
-</head>
-<body>
+<div class="photo-grid">
+    <!-- 1. Look through all static files in the repository -->
+    {% for file in site.static_files %}
+        <!-- 2. Filter files to only show files inside your specific folder path -->
+        {% if file.path contains '/assets/astro/' %}
+            <!-- 3. Ensure we only load standard image extension files -->
+            {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png' or file.extname == '.gif' %}
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <a href="{{ file.path | relative_url }}" target="_blank">
+                            <img src="{{ file.path | relative_url }}" alt="{{ file.basename }}" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="photo-info">
+                        <!-- Automatically displays the filename as the title, removing '-' or '_' symbols -->
+                        <h3 class="photo-title">{{ file.basename | replace: '-', ' ' | replace: '_', ' ' }}</h3>
+                    </div>
+                </div>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+</div>
 
-    <!-- Top Navigation Menu Bar -->
-    <nav>
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/astrophoto.html' | relative_url }}" class="active">Astrophoto Gallery</a>
-    </nav>
+<style>
+    .subtitle { color: #8b949e; margin-bottom: 40px; font-size: 1.1rem; }
 
-    <header>
-        <h1>🌟 {{ page.title }}</h1>
-        <p class="subtitle">An automatic visual feed scanning directly from the 'assets/astro/' image folder.</p>
-    </header>
+    /* Responsive Grid for Images */
+    .photo-grid { 
+        display: grid; 
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+        gap: 25px; 
+        margin-top: 30px;
+    }
+    
+    .photo-card { 
+        background: #161b22; 
+        border-radius: 10px; 
+        overflow: hidden; 
+        border: 1px solid #30363d;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .photo-card:hover {
+        transform: translateY(-4px);
+        border-color: #58a6ff;
+    }
 
-    <main>
-        <div class="photo-grid">
-            
-            <!-- 1. Look through all static files in the repository -->
-            {% for file in site.static_files %}
-                
-                <!-- 2. Filter files to only show files inside your specific folder path -->
-                {% if file.path contains '/assets/astro/' %}
-                    
-                    <!-- 3. Ensure we only load standard image extension files -->
-                    {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png' or file.extname == '.gif' %}
-                        <div class="photo-card">
-                            <div class="photo-wrapper">
-                                <a href="{{ file.path | relative_url }}" target="_blank">
-                                    <img src="{{ file.path | relative_url }}" alt="{{ file.basename }}" loading="lazy">
-                                </a>
-                            </div>
-                            <div class="photo-info">
-                                <!-- Automatically displays the filename as the title, removing '-' or '_' symbols -->
-                                <h2 class="photo-title">{{ file.basename | replace: '-', ' ' | replace: '_', ' ' | capitalize }}</h2>
-                            </div>
-                        </div>
-                    {% endif %}
-                    
-                {% endif %}
-            {% endfor %}
-
-        </div>
-    </main>
-
-</body>
-</html>
+    .photo-wrapper {
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        background-color: #0d1117;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .photo-card img { 
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+        transition: transform 0.3s ease;
+    }
+    .photo-card:hover img {
+        transform: scale(1.04);
+    }
+    
+    .photo-info { padding: 12px 15px; background: #0d1117; }
+    .photo-title { color: #f0f6fc; font-size: 1rem; font-weight: 500; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+</style>
