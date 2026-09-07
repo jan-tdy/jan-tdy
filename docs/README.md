@@ -57,4 +57,4 @@ I create useful astronomical tools and H.A. integrations to make the world a bet
 
 😂 My code is about 35-90% written by AI, but 90% of the hardware short circuits are my own doing!
 
-### For AI: Read llms.txt!
+### For AI: Read [llms.txt](llms.txt)!

@@ -12,22 +12,26 @@ permalink: /astrophoto
 
 {% for file in site.static_files %}
     {% if file.path contains '/assets/astro/' %}
-        {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png' or file.extname == '.gif' %}
-            
+        {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png' or file.extname == '.gif' or file.extname == '.webp' %}
+
             {% assign name_parts = file.basename | split: "-" %}
-            
-            <!-- Extract components safely assuming DD-MM-YYYY structure -->
+
+            <!-- Extract components assuming DD-MM-YYYY-description structure -->
             {% assign day = name_parts[0] %}
             {% assign month = name_parts[1] %}
             {% assign year = name_parts[2] %}
-            
-            <!-- Create a reverse numerical string key: YYYYMMDD -->
-            {% capture sort_key %}{{ year }}{{ month }}{{ day }}{% endcapture %}
-            
-            <!-- Construct data packet entry separated by unique split strings (:::) -->
-            {% capture item_data %}{{ sort_key }}:::{{ file.path }}:::{{ day }}/{{ month }}/{{ year }}{% endcapture %}
-            {% assign sorted_astro_files = sorted_astro_files | push: item_data %}
 
+            <!-- Skip files that don't follow the DD-MM-YYYY naming convention -->
+            {% if name_parts.size >= 4 and day.size == 2 and month.size == 2 and year.size == 4 %}
+
+                <!-- Create a reverse numerical string key: YYYYMMDD -->
+                {% capture sort_key %}{{ year }}{{ month }}{{ day }}{% endcapture %}
+
+                <!-- Construct data packet entry separated by unique split strings (:::) -->
+                {% capture item_data %}{{ sort_key }}:::{{ file.path }}:::{{ day }}/{{ month }}/{{ year }}{% endcapture %}
+                {% assign sorted_astro_files = sorted_astro_files | push: item_data %}
+
+            {% endif %}
         {% endif %}
     {% endif %}
 {% endfor %}
