@@ -13,12 +13,9 @@ I create useful astronomical tools and H.A. integrations to make the world a bet
 > [!NOTE]
 > I cannot fix all issues on all my repos in one day, but you can view my issue and pr queue [here](https://github.com/issues/assigned?q=state%3Aopen+%28is%3Aissue+OR+is%3Apr%29++archived%3Afalse)
 
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Ftapovac-adv&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/tapovac-adv)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fvisual-astro&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/visual-astro)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Ffridge-core&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/fridge-core)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fha-indi-client&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/ha-indi-client)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fcodemaster&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/codemaster)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Flinux-print&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/linux-print)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Ftapovac-adv&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/tapovac-adv) [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fvisual-astro&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/visual-astro)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Ffridge-core&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/fridge-core) [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fha-indi-client&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/ha-indi-client)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fcodemaster&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/codemaster) [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Flinux-print&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/linux-print)
 
 ## 🔭 What I'm currently working on
 
