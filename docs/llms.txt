@@ -6,6 +6,8 @@
 
 - [Profile README](https://jan-tdy.github.io/jan-tdy/): Full background and developer overview.
 - [GitHub Repositories](https://github.com/jan-tdy?tab=repositories): The complete list of public code repositories.
+- [Blog](https://jan-tdy.github.io/jan-tdy/blog)
+- [Astrophotography](https://jan-tdy.github.io/jan-tdy/astrophoto)
 
 ## Featured Projects
 
