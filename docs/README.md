@@ -6,8 +6,6 @@ permalink: /
 
 # Hi there, I'm Ján from Slovakia 👋
 
-![Badge](https://hitscounter.dev/api/hit?url=jan-tdy.github.io%2Fjan-tdy&label=Page+visitors+count&icon=github&color=%23198754&message=&style=for-the-badge&tz=UTC)
-
 I am a developer, hardware tinkerer, and a little enthusiast of stars. Long-time user of **Home Assistant**.
 
 I create useful astronomical tools and H.A. integrations to make the world a better place to live.
