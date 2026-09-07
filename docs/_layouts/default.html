@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title }}</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔭</text></svg>">
+    {% seo %}
     <style>
         * {
             margin: 0;
@@ -197,13 +199,13 @@
     <!-- Navigation -->
     <nav>
         <div class="container">
-            <a href="/jan-tdy/" class="logo">jan-tdy</a>
+            <a href="{{ site.baseurl }}/" class="logo">jan-tdy</a>
             <ul>
-                <li><a href="/jan-tdy/" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
-                <li><a href="/jan-tdy/projects" {% if page.url == '/projects' %}class="active"{% endif %}>Projects</a></li>
-                <li><a href="/jan-tdy/contact" {% if page.url == '/contact' %}class="active"{% endif %}>Contact</a></li>
-                <li><a href="/jan-tdy/blog" {% if page.url == '/blog' %}class="active"{% endif %}>Blog</a></li>
-                <li><a href="/jan-tdy/astrophoto" {% if page.url == '/astrophoto' %}class="active"{% endif %}>Astrophotography</a></li>
+                <li><a href="{{ site.baseurl }}/" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+                <li><a href="{{ site.baseurl }}/projects" {% if page.url == '/projects' %}class="active"{% endif %}>Projects</a></li>
+                <li><a href="{{ site.baseurl }}/contact" {% if page.url == '/contact' %}class="active"{% endif %}>Contact</a></li>
+                <li><a href="{{ site.baseurl }}/blog" {% if page.url == '/blog' %}class="active"{% endif %}>Blog</a></li>
+                <li><a href="{{ site.baseurl }}/astrophoto" {% if page.url == '/astrophoto' %}class="active"{% endif %}>Astrophotography</a></li>
             </ul>
         </div>
     </nav>
