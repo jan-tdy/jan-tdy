@@ -1,8 +1,3 @@
----
-layout: default
-title: Home
----
-
 # Hi there, I’m Ján from Slovakia 👋
 
 I am a developer, hardware tinkerer, and a little enthusiast of stars. Long-time user of **Home Assistant**.
