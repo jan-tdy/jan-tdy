@@ -42,4 +42,4 @@ I cannot fix all issues on all my repos in one day, but you can view my issue an
 *   📧 **Email:** j44soft@gmail.com
 
 ### ⚡ Fun fact:
-😂 My code is about 35-90% written by AI, but 90% of the hardware short circuits are my own doing!
+😂 My code is about 20-90% written by AI, but 90% of the hardware short circuits are my own doing!
