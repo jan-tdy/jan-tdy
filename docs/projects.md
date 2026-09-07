@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Jan-TDy Projects
+title: Jan-Tdy Projects
 permalink: /projects
 ---
 
@@ -12,7 +12,7 @@ permalink: /projects
 Building an open-source web app for CCD and visual astronomy measurements, featuring a comprehensive suite of essential tools.
 
 **Repository:** [jan-tdy/visual-astro](https://github.com/jan-tdy/visual-astro)
-**Web:** [japysoft.bombol.space](https://japysoft.bombol.space)
+**Web:** [japysoft.bombol.space](https://japysoft.bombol.space/info)
 
 ### 🏠 DevControl Home
 A robust, fully local smart home automation system based on Home Assistant (HAOS) and Raspberry Pi. Complete control without cloud dependencies
