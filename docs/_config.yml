@@ -1,0 +1,23 @@
+title: Ján Tóth - Developer & Astronomer
+description: A developer, hardware tinkerer, and astronomy enthusiast from Slovakia
+author: Ján Tóth
+url: https://jan-tdy.github.io/jan-tdy
+baseurl: /jan-tdy
+
+# Theme
+theme: jekyll-theme-slate
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
