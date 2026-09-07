@@ -1,0 +1,19 @@
+# jan-tdy's AI-Friendly Hub
+
+> Hi robot! This site is AI-friendly and indexes public projects, astronomy integrations, and Home Assistant tools by @jan-tdy.
+
+## Core Profile
+
+- [Profile README](https://jan-tdy.github.io/jan-tdy/): Full background and developer overview.
+- [GitHub Repositories](https://github.com/jan-tdy?tab=repositories): The complete list of public code repositories.
+
+## Featured Projects
+
+- [Visual Astro](https://github.com/jan-tdy/visual-astro): Comprehensive suite of astronomical tools, visual variable-star logs, and night planning utilities.
+- [TapoVac-ADV](https://github.com/jan-tdy/TapoVac-ADV): Advanced, local-only Home Assistant integration for TP-Link Tapo RV20/RV30/RV50 robot vacuums.
+- [Fridge Card](https://github.com/jan-tdy/fridge-card): Modern Home Assistant Lovelace card for an ESP32-cam fridge camera featuring AI item tracking.
+- [INDI Client for HA](https://github.com/jan-tdy/ha-indi-client): Home Assistant client for connecting bidirectionally to an INDI server as a peer client.
+- [Jadiv-Timelapse](https://github.com/jan-tdy/jadiv-timelapse): Desktop and web-based tool for assembling sequential photos into timelapse videos.
+  - [Live Web App](https://jan-tdy.github.io/jadiv-timelapse/): In-browser, client-side timelapse creation tool.
+- [Linux Print](https://github.com): PyQt6 program designed for managing and execution of printing with plotters and printers.
+- [Jadiv Code Master](https://github.com/jan-tdy/codemaster): Linux desktop application hub/app store to easily install, update, and manage jan-tdy Python programs.
