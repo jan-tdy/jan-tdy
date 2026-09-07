@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ján - Developer & Astronomer
+title: Jan-Tdy Website
 permalink: /
 ---
 
