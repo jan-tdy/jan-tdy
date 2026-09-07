@@ -4,7 +4,7 @@ I am a developer, hardware tinkerer, and a little enthusiast of stars. Long-time
 
 **I create useful astronomical tools and H.A. integrations to make the world a better place to live.**
 
-I cannot fix all issues on all my repos in one day, but you can view my issue and pr queue [here](https://github.com/issues/assigned?q=is%3Aissue+or+is%3Apr+state%3Aopen+archived%3Afalse+user%3Ajan-tdy+sort%3Acreated-asc)
+I cannot fix all issues on all my repos in one day, but you can view my issue and pr queue [here](https://github.com/issues/assigned?q=state%3Aopen+%28is%3Aissue+OR+is%3Apr%29++archived%3Afalse+%28user%3Ajan-tdy+OR+%28user%3Amampfes+AND+assignee%3A%40me%29%29+sort%3Acreated-asc)
 
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Ftapovac-adv&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/tapovac-adv)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fvisual-astro&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/visual-astro)
