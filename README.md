@@ -1,4 +1,5 @@
 ## Hi there, I'm Ján from Slovakia 👋
+![Badge](https://hitscounter.dev/api/hit?url=github.com%2Fjan-tdy&label=Visitors&icon=github&col
 
 I am a developer, hardware tinkerer, and a little enthusiast of stars. Long-time user of Home Assistant.
 
