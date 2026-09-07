@@ -37,7 +37,7 @@ I cannot fix all issues on all my repos in one day, but you can view my issue an
 *   **Software & Protocols:** Home Assistant OS, MQTT, Local Automations
 
 ### 📫 How to reach me:
-*   🌐 **Website:** I don't have time to update it...
+*   🌐 **Website:** https://jan-tdy.github.io/jan-tdy/
 *   📧 **Email:** j44soft@gmail.com
 
 ### ⚡ Fun fact:
