@@ -21,8 +21,16 @@ permalink: /astrophoto
             {% assign month = name_parts[1] %}
             {% assign year = name_parts[2] %}
 
-            <!-- Skip files that don't follow the DD-MM-YYYY naming convention -->
-            {% if name_parts.size >= 4 and day.size == 2 and month.size == 2 and year.size == 4 %}
+            <!-- Digits-only check: a non-numeric string has leftover characters after stripping 0-9 -->
+            {% assign day_non_digits = day | remove: '0' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9' %}
+            {% assign month_non_digits = month | remove: '0' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9' %}
+            {% assign year_non_digits = year | remove: '0' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9' %}
+            {% assign day_num = day | plus: 0 %}
+            {% assign month_num = month | plus: 0 %}
+            {% assign year_num = year | plus: 0 %}
+
+            <!-- Skip files that don't follow the DD-MM-YYYY naming convention with a valid calendar date -->
+            {% if name_parts.size >= 4 and day.size == 2 and month.size == 2 and year.size == 4 and day_non_digits == "" and month_non_digits == "" and year_non_digits == "" and day_num >= 1 and day_num <= 31 and month_num >= 1 and month_num <= 12 and year_num >= 1900 and year_num <= 2100 %}
 
                 <!-- Create a reverse numerical string key: YYYYMMDD -->
                 {% capture sort_key %}{{ year }}{{ month }}{{ day }}{% endcapture %}
