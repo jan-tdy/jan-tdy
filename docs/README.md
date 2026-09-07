@@ -13,7 +13,7 @@ I am a developer, hardware tinkerer, and a little enthusiast of stars. Long-time
 I create useful astronomical tools and H.A. integrations to make the world a better place to live.
 
 > [!NOTE]
-> I cannot fix all issues on all my repos in one day, but you can view my issue and pr queue [here](https://github.com/issues/assigned?q=state%3Aopen+%28is%3Aissue+OR+is%3Apr%29++archived%3Afalse)
+> I cannot fix all issues on all my repos in one day, but you can view my issue and pr queue [here](https://github.com/issues/assigned?q=state%3Aopen+%28is%3Aissue+OR+is%3Apr%29++archived%3Afalse+%28user%3Ajan-tdy+OR+%28user%3Amampfes+AND+assignee%3Ajan-tdy%29%29+sort%3Acreated-asc)
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 30px;">
   <a href="https://github.com/jan-tdy/tapovac-adv" style="text-decoration: none;">
