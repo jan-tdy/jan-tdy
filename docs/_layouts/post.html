@@ -1,92 +1,25 @@
 ---
-layout: null
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <style>
-        /* Deep space background with soft white text */
-        body { 
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
-            line-height: 1.7; 
-            max-width: 700px; 
-            margin: 40px auto; 
-            padding: 0 20px; 
-            color: #e0e6ed; 
-            background-color: #0f141c; 
-        }
-        header { 
-            margin-bottom: 40px; 
-            border-bottom: 1px solid #1f2937;
-            padding-bottom: 20px;
-        }
-        /* Crisp star-white titles */
-        h1, h2, h3, h4, h5, h6 { 
-            margin-bottom: 5px; 
-            color: #ffffff; 
-        }
-        /* Subtle gray-blue for metadata */
-        .date { 
-            color: #9ca3af; 
-            font-style: italic; 
-            font-size: 0.95rem;
-        }
-        /* High-visibility electric blue links */
-        a {
-            color: #38bdf8;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .back-link { 
-            display: inline-block; 
-            margin-bottom: 20px; 
-        }
-        /* Style adjustments for parsed Markdown content blocks */
-        main code {
-            background-color: #1e293b;
-            color: #f472b6;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-family: monospace;
-        }
-        main pre {
-            background-color: #1e293b;
-            padding: 15px;
-            border-radius: 8px;
-            overflow-x: auto;
-        }
-        main pre code {
-            background-color: transparent;
-            color: #e2e8f0;
-            padding: 0;
-        }
-        main blockquote {
-            border-left: 4px solid #38bdf8;
-            margin: 0;
-            padding-left: 20px;
-            color: #9ca3af;
-            font-style: italic;
-        }
-    </style>
-</head>
-<body>
 
-    <a href="{{ '/' | relative_url }}" class="back-link">← Back to Home</a>
-
+<article>
     <header>
         <h1>{{ page.title }}</h1>
-        <span class="date">{{ page.date | date: "%B %d, %Y" }}</span>
+        <p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
+        <nav>
+            <a href="{{ site.baseurl }}/blog.html">← Back to Blog</a>
+        </nav>
     </header>
 
     <main>
-        <!-- {{ content }} injection is where your Markdown content gets parsed into HTML -->
         {{ content }}
     </main>
+</article>
 
-</body>
-</html>
+<style>
+    article header { border-bottom: 2px solid #eee; padding-bottom: 20px; margin-bottom: 30px; }
+    h1 { margin: 0; }
+    .post-date { color: #666; font-size: 0.9rem; margin: 10px 0; }
+    nav a { color: #0066cc; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+</style>
