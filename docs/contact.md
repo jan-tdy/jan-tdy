@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact
+title: Jan-Tdy Contact
 permalink: /contact
 ---
 
