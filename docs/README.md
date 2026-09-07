@@ -36,6 +36,8 @@ I create useful astronomical tools and H.A. integrations to make the world a bet
 
 ## 🔭 What I'm currently working on
 
+**See the projects page for more info**
+
 *   **DevControl 2 System for Bombol.Space**: Setting up and managing a control system for a telescope hosting facility in Piconcillo.
 *   **DevControl Home**: Building a robust, fully local smart home automation system based on Home Assistant (HAOS) and Raspberry Pi.
 *   **Visual Astro**: Building an open-source web app for CCD and visual astronomy measurements, featuring a comprehensive suite of essential tools.
@@ -63,7 +65,7 @@ So these are my real skills:
     - Like, I know a little, but HTML is definitely not my favourite language.
 - Python
   - Reading
-    - I understand some non-GUI programs under 100lines!
+    - I understand some non-GUI programs under 100 lines!
   - Writing
     - I can write some very simple code (print, math, etc.)...
 - JavaScript
@@ -90,11 +92,6 @@ So these are my real skills:
 
 *   **Hardware:** Raspberry Pi (4 & 5), Mini PCs, Microcontrollers, DIY Electronics
 *   **Software & Protocols:** Home Assistant OS, MQTT, ESPHome, Local Automations
-
-## 📫 How to reach me
-
-*   🌐 **Website:** You are reading it right now!
-*   📧 **Email:** j44soft@gmail.com
 
 ## ⚡ Fun fact
 
