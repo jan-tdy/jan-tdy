@@ -13,7 +13,7 @@ I create useful astronomical tools and H.A. integrations to make the world a bet
 > [!NOTE]
 > I cannot fix all issues on all my repos in one day, but you can view my issue and pr queue [here](https://github.com/issues/assigned?q=state%3Aopen+%28is%3Aissue+OR+is%3Apr%29++archived%3Afalse+%28user%3Ajan-tdy+OR+%28user%3Amampfes+AND+assignee%3Ajan-tdy%29%29+sort%3Acreated-asc)
 
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4px; margin-bottom: 20px;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0px; margin-bottom: 0px;">
   <a href="https://github.com/jan-tdy/tapovac-adv" style="text-decoration: none;">
     <img src="https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Ftapovac-adv&description_lines_count=2&theme=dark" alt="TapoVac-ADV">
   </a>
