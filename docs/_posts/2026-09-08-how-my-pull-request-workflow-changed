@@ -11,6 +11,9 @@ This article is about how my coding workflow (AI, Commit, PR, Releases, etc.) ch
 ## The start of my coding experience (cca 2025) - Commit system
 In Slovakia, for the Astronomical Observatory in Kolonica, I made a simple Tkinter Python program for controlling a USB surge protector using AI. It worked; I added more features to it.
 But everything was copy-pasted from an AI chat, and that AI was often "stupid", it was simply hard to do.
+
+I was just versioning by a number in the title of the program and downloaded the latest from main.
+
 Promt -> Wait -> Promt -> Wait -> Commit -> Download -> Repeat
 
 
@@ -23,11 +26,16 @@ So that is when everything changed.
 - I no longer used commits but PRs
 - I made more and more programs with that amazing agentic AI, including visual-astro (worth mentioning I discovered Lovable a few months before Claude Code)
 - The AI (Claude Code) was smarter, worked with GitHub directly, and even more
+
+Now I keep versions in some .json files and release using GitHub releases.
+
 Promt -> Wait -> Update -> Repeat
 
 ## Discovery of CodeRabbit (few days ago)
 And now, a few days ago, I discovered CodeRabbit (yeah, AI started talking with AI under my eyes)
 It was free and found bugs in Claude Code code, which was good, but now it is EVEN better.
+
+Like I said 'Now I keep versions in some .json files and release using GitHub releases' but in certain repos I have CHANGELOG.md and a GitHub action
 Promt -> Wait x2 -> Release -> Update -> Repeat
 
 Also worth mentioning that a few weeks ago I discovered Vercel previews, which helped with my web apps like visual-astro - I no longer needed to merge in order to see if it looks like it should.
