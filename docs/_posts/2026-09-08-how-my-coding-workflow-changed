@@ -24,9 +24,9 @@ Then I continued contributing to mampfes/hacs-waste-collection-schedule with Goo
 and thanks to the amazing maintainers of mampfes/hacs-waste-collection-schedule, I discovered Claude Code, which changed everything!
 Thank you very much @markvp and @bbr111!
 So that is when everything changed.
-- I no longer used commits but PRs
+- I started using pull requests for review and merging instead of managing changes directly.
 - I made more and more programs with that amazing agentic AI, including visual-astro (worth mentioning I discovered Lovable a few months before Claude Code)
-- The AI (Claude Code) was smarter, worked with GitHub directly, and even more
+- The AI (Claude Code) was smarter, worked with GitHub directly, and more
 
 Now I keep versions in some .json files and release using GitHub releases.
 
