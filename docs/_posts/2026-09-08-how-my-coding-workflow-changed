@@ -14,7 +14,7 @@ But everything was copy-pasted from an AI chat, and that AI was often "stupid", 
 
 I was versioning by a number in the program title and downloading the latest from main.
 
-Promt -> Wait -> Promt -> Wait -> Commit -> Download -> Repeat
+Prompt -> Wait -> Prompt -> Wait -> Commit -> Download -> Repeat
 
 
 ## Discovery of PRs and Claude Code (2026)
@@ -29,14 +29,14 @@ So that is when everything changed.
 
 Now I keep versions in some .json files and release using GitHub releases.
 
-Promt -> Wait -> Update -> Repeat
+Prompt -> Wait -> Update -> Repeat
 
 ## Discovery of CodeRabbit (a few days ago)
 And now, a few days ago, I discovered CodeRabbit (yeah, AI started talking with AI under my eyes)
 It was free and found bugs in Claude Code, which was good, but now it is EVEN better.
 
 Like I said `Now I keep versions in some .json files and release using GitHub releases`, but in certain repos I have CHANGELOG.md and a GitHub action
-Promt -> Wait x2 -> Release -> Update -> Repeat
+Prompt -> Wait x2 -> Release -> Update -> Repeat
 
 Also worth mentioning that a few weeks ago I discovered Vercel previews, which helped with my web apps like visual-astro - I no longer needed to merge to see if it looks like it should.
 
