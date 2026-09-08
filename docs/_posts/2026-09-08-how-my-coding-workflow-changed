@@ -8,7 +8,7 @@ state: DRAFT
 Hi all!
 This article is about how my coding workflow (AI, Commit, PR, Releases, etc.) changed.
 
-## The start of my coding experience (cca 2025) - Commit system
+## The start of my coding experience (end of 2024) - Commit system
 In Slovakia, for the Astronomical Observatory in Kolonica, I made a simple Tkinter Python program for controlling a USB surge protector using AI. It worked; I added more features to it.
 But everything was copy-pasted from an AI chat, and that AI was often "stupid", it was simply hard to do.
 
@@ -32,7 +32,7 @@ Now I keep versions in some .json files and release using GitHub releases.
 
 Prompt -> Wait -> Update -> Repeat
 
-## Discovery of CodeRabbit (a few days ago)
+## Discovery of CodeRabbit (August 2026)
 And now, a few days ago, I discovered CodeRabbit (yeah, AI started talking with AI under my eyes)
 It was free and found bugs in Claude Code, which was good, but now it is EVEN better.
 
