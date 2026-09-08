@@ -31,14 +31,14 @@ Now I keep versions in some .json files and release using GitHub releases.
 
 Promt -> Wait -> Update -> Repeat
 
-## Discovery of CodeRabbit (few days ago)
+## Discovery of CodeRabbit (a few days ago)
 And now, a few days ago, I discovered CodeRabbit (yeah, AI started talking with AI under my eyes)
-It was free and found bugs in Claude Code code, which was good, but now it is EVEN better.
+It was free and found bugs in Claude Code, which was good, but now it is EVEN better.
 
-Like I said 'Now I keep versions in some .json files and release using GitHub releases' but in certain repos I have CHANGELOG.md and a GitHub action
+Like I said `Now I keep versions in some .json files and release using GitHub releases`, but in certain repos I have CHANGELOG.md and a GitHub action
 Promt -> Wait x2 -> Release -> Update -> Repeat
 
-Also worth mentioning that a few weeks ago I discovered Vercel previews, which helped with my web apps like visual-astro - I no longer needed to merge in order to see if it looks like it should.
+Also worth mentioning that a few weeks ago I discovered Vercel previews, which helped with my web apps like visual-astro - I no longer needed to merge to see if it looks like it should.
 
 
 ## The future
