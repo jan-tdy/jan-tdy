@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article class="project-detail">
+    <header>
+        <h1>{{ page.title }}</h1>
+        {% if page.image %}
+        <img class="project-hero" src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+        {% endif %}
+        <nav>
+            <a href="{{ site.baseurl }}/projects">← Back to Projects</a>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+</article>
+
+<style>
+    .project-detail header { border-bottom: 2px solid #30363d; padding-bottom: 20px; margin-bottom: 30px; }
+    .project-detail h1 { margin: 0 0 16px 0; border-bottom: none; padding-bottom: 0; }
+    .project-hero { width: 100%; max-height: 380px; object-fit: cover; border: 1px solid #30363d; margin-bottom: 16px; }
+    .project-detail nav a { color: #58a6ff; text-decoration: none; font-weight: bold; }
+    .project-detail nav a:hover { text-decoration: underline; }
+</style>
