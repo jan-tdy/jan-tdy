@@ -20,7 +20,7 @@ Prompt -> Wait -> Prompt -> Wait -> Commit -> Download -> Repeat
 ## Discovery of PRs and Claude Code (2026)
 I wanted to add support for some Waste Collector to mampfes/hacs-waste-collection-schedule, and that is the first time I used Google Antigravity; I was amazed, but then I reached my limit.
 That is approximately when I discovered PRs.
-By the way, you can see the PR for this post here: github.com/jan-tdy/jan-tdy/pull/3
+By the way, you can see the PR for this post here: https://github.com/jan-tdy/jan-tdy/pull/3
 
 Then I continued contributing to mampfes/hacs-waste-collection-schedule with Google Gemini,
 and thanks to the amazing maintainers of mampfes/hacs-waste-collection-schedule, I discovered Claude Code, which changed everything!
