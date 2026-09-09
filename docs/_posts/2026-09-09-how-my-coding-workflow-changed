@@ -10,7 +10,7 @@ This article is about how my coding workflow (AI, Commit, PR, Releases, etc.) ch
 
 > **Disclosure:** This post describes my personal experience. I am not affiliated with the providers of the tools mentioned here, and they do not endorse this post.
 
-![Popis obrázku]({{ "/assets/posts/chaos.png" | relative_url }})
+![Just some stupid image]({{ "/assets/posts/chaos.png" | relative_url }})
 
 ## The start of my coding experience (end of 2024) - Commit system
 In Slovakia, at the Astronomical Observatory in Kolonica, I made a simple Tkinter Python program to control a USB surge protector using AI. It worked; I added more features to it.
