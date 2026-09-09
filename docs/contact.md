@@ -28,8 +28,7 @@ I'm always interested in collaborating on interesting projects, especially those
 ## Note
 
 I cannot fix all issues on all my repos in one day, but I actively monitor:
-- [My issue queue](https://github.com/issues/assigned?q=state%3Aopen+%28is%3Aissue+OR+is%3Apr%29++archived%3Afalse)
-- [Pull requests](https://github.com/pulls/assigned)
+- [My issue and PR queue](github.com/issues/assigned?q=state%3Aopen+%28is%3Aissue+OR+is%3Apr%29++archived%3Afalse+%28user%3Ajan-tdy+OR+%28user%3Amampfes+AND+assignee%3Ajan-tdy%29%29+sort%3Acreated-asc)
 
 Your patience is appreciated! 🙏
 
