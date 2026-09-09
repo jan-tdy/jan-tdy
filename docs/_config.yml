@@ -14,3 +14,15 @@ plugins:
 # Build settings
 markdown: kramdown
 highlighter: rouge
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project

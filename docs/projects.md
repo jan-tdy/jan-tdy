@@ -6,55 +6,75 @@ permalink: /projects
 
 # My Projects
 
-## Featured Projects
+<div class="project-grid">
+{% assign sorted_projects = site.projects | sort: "order" %}
+{% for project in sorted_projects %}
+    <a class="project-card" href="{{ project.url | relative_url }}">
+        <div class="project-image-wrapper">
+            {% if project.image %}
+            <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" loading="lazy">
+            {% endif %}
+        </div>
+        <div class="project-card-title">{{ project.title }}</div>
+    </a>
+{% endfor %}
+</div>
 
-### 🔭 Visual Astro
-Building an open-source web app for CCD and visual astronomy measurements, featuring a comprehensive suite of essential tools.
+<style>
+    .project-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        margin-top: 30px;
+    }
 
-**Repository:** [jan-tdy/visual-astro](https://github.com/jan-tdy/visual-astro)
-**Web:** [japysoft.bombol.space](https://japysoft.bombol.space/info)
+    .project-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 10px;
+        overflow: hidden;
+        text-decoration: none;
+        color: #c9d1d9;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        transition: transform 0.15s ease, border-color 0.15s ease;
+    }
 
-### 🏠 DevControl Home
-A robust, fully local smart home automation system based on Home Assistant (HAOS) and Raspberry Pi. Complete control without cloud dependencies
+    .project-card:hover {
+        transform: translateY(-2px);
+        border-color: #58a6ff;
+    }
 
-  - ❄️ Fridge Core **Repository:** [jan-tdy/fridge-core](https://github.com/jan-tdy/fridge-core)
-  - ❄️ Fridge Card **Repository:** [jan-tdy/fridge-card](https://github.com/jan-tdy/fridge-card)
-  - 🧹 Tapovac ADV **Repository:** [jan-tdy/tapovac-adv](https://github.com/jan-tdy/tapovac-adv)
+    .project-image-wrapper {
+        aspect-ratio: 4 / 3;
+        background: #0d1117;
+        overflow: hidden;
+    }
 
-### 🛰️ DevControl 2 System for Bombol.Space
-Setting up and managing a control system for a telescope hosting facility in Piconcillo. Professional-grade telescope control and monitoring.
-**Docs:** [devcontrol2.gitbook.io](https://devcontrol2.gitbook.io/)
-**I am aslo active on the H.A. Community:** [https://community.home-assistant.io/u/jan-tdy/summary](https://community.home-assistant.io/u/jan-tdy/activity/topics)
+    .project-image-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0;
+        display: block;
+    }
 
-### 🔌 HA INDI Client
-Home Assistant integration for INDI system, enabling professional astronomy equipment control.
+    .project-card-title {
+        padding: 12px 14px;
+        font-weight: 600;
+        font-size: 1rem;
+        text-align: center;
+    }
 
-**Repository:** [jan-tdy/ha-indi-client](https://github.com/jan-tdy/ha-indi-client)
-**Repository:** [jan-tdy/ha-indi-card](https://github.com/jan-tdy/ha-indi-card)
+    @media (max-width: 900px) {
+        .project-grid { grid-template-columns: repeat(2, 1fr); }
+    }
 
-
-### 💻 CodeMaster
-My app store...
-
-**Repository:** [jan-tdy/codemaster](https://github.com/jan-tdy/codemaster)
-
-### 🖨️ Linux Print
-A Linux PyQt5 app for not only plotters.
-
-**Repository:** [jan-tdy/linux-print](https://github.com/jan-tdy/linux-print)
-
-## Hardware Projects
-
-I also work on custom hardware solutions, including:
-- DIY electronics and microcontroller projects
-- ESPHome smart home control displays
-
-## Tech Stack
-
-- **Languages:** Python, TypeScript, YAML, LaTeX
-- **Platforms:** Raspberry Pi, Home Assistant OS, Linux, Android
-- **Protocols:** MQTT, INDI
-- **Tools:** Custom electronics, microcontrollers
+    @media (max-width: 520px) {
+        .project-grid { grid-template-columns: 1fr; }
+    }
+</style>
 
 ---
 
