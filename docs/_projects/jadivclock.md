@@ -7,6 +7,6 @@ order: 7
 
 Designed as a physical front-end for the DevControl Home system — a wall-mounted panel to check status and trigger controls without needing a phone or tablet.
 
-- **Hardware:** Elecrow CrowPanel 3.5" Advanced (ESP32-S3, touchscreen).
+- **Hardware:** Elecrow CrowPanel — 2.4", 3.5" Advanced and 4.3" CYD variants (ESP32, touchscreen).
 - **Role:** talks to DevControl Home over MQTT / Home Assistant.
-- Work in progress — no public repository yet.
+- Will be open-source on GitHub soon.

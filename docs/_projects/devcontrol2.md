@@ -5,7 +5,7 @@ order: 3
 ---
 🛰️ A custom Home Assistant-based control system developed by JapySoft for managing the Bombol.Space telescope hosting facility in Piconcillo, Spain.
 
-Covers daily operations, dashboard setup and troubleshooting for the facility. Cameras and sensors are live and monitored in real time, while roof management currently runs in simulator (demo) mode until the physical hardware is installed.
+Dashboard, camera and sensor monitoring, and troubleshooting for the facility.
 
 **Docs:** [devcontrol2.gitbook.io](https://devcontrol2.gitbook.io/)
 **Repository:** [jan-tdy/DevControl2-Docs](https://github.com/jan-tdy/DevControl2-Docs)
