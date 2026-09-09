@@ -1,7 +1,7 @@
 ---
 title: "HA INDI Client"
 image: /assets/projects/ha-indi-client.png
-order: 4
+order: 6
 ---
 🔌 A Home Assistant custom integration that connects to a running INDI server (`indiserver`) as an additional client — the same way CCDciel, KStars/EKOS or `indi_getprop` would.
 

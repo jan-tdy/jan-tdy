@@ -3,7 +3,7 @@ title: "Visual Astro"
 image: /assets/projects/visual-astro.png
 order: 1
 ---
-🔭 A modern, web-based tool for logging and reducing visual variable-star observations — no more manual spreadsheets.
+🔭 A modern, web-based tool for logging and reducing visual variable-star observations, plus Pozor night planning — no more manual spreadsheets.
 
 - **Sessions** — log observing sessions and individual magnitude estimates.
 - **Catalog** — manage your personal catalog of variable stars and comparison sequences.

@@ -1,7 +1,7 @@
 ---
 title: "DevControl 2 — Bombol.Space"
 image: /assets/projects/devcontrol2.png
-order: 3
+order: 5
 ---
 🛰️ A custom Home Assistant-based control system developed by JapySoft for managing the Bombol.Space telescope hosting facility in Piconcillo, Spain.
 

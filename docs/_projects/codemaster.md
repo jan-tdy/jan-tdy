@@ -1,7 +1,7 @@
 ---
 title: "CodeMaster"
 image: /assets/projects/codemaster.png
-order: 5
+order: 7
 ---
 💻 A desktop app store for my own GitHub apps.
 
