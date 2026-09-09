@@ -30,7 +30,7 @@ Thank you very much @markvp and @bbr111!
 
 So that is when everything changed.
 - I started using pull requests for review and merging instead of managing changes directly.
-- I made more and more programs with that amazing agentic AI, including visual-astro (worth mentioning I discovered Lovable a few months before Claude Code)
+- I made more and more programs with that amazing agentic AI, including [visual-astro](https://japysoft.bombol.space/info) (worth mentioning I discovered Lovable a few months before Claude Code)
 - The AI (Claude Code) was smarter, worked with GitHub directly, and handled much more of the workflow on its own
 
 Now I keep versions in some .json files and release using GitHub releases.
@@ -50,5 +50,5 @@ Also worth mentioning that in August 2026 I discovered Vercel previews, which he
 ## The future
 Is wild...
 AI will review what other AI made (and they would talk to each other), and that will be reviewed by another AI, and the result will be reviewed by me.
-Prompt -> Wait x2 -> Review -> Update -> Repeat
+Prompt -> Wait -> Review -> Update -> Repeat
 
