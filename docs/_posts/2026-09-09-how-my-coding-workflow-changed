@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How my coding workflow changed"
-date: 2026-09-08
+date: 2026-09-09
 state: DRAFT
 ---
 
@@ -39,7 +39,7 @@ Prompt -> Wait -> Update -> Repeat
 And now, a few days ago, I discovered CodeRabbit (yeah, AI started talking with AI under my eyes)
 It was free and found bugs in Claude Code, which was good, but now it is EVEN better.
 
-Like I said `Now I keep versions in some .json files and release using GitHub releases`, but in certain repos I have CHANGELOG.md and a GitHub action
+Like I said, `Now I keep versions in some .json files and release using GitHub releases`, but in certain repos I have CHANGELOG.md and a GitHub action
 Prompt -> Wait x2 -> Release -> Update -> Repeat
 
 Also worth mentioning that a few weeks ago I discovered Vercel previews, which helped with my web apps like visual-astro - I no longer needed to merge to see if it looks like it should.
