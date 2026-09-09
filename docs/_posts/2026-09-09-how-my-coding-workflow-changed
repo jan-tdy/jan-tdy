@@ -16,7 +16,7 @@ This article is about how my coding workflow (AI, Commit, PR, Releases, etc.) ch
 In Slovakia, at the Astronomical Observatory in Kolonica, I made a simple Tkinter Python program to control a USB surge protector using AI. It worked; I added more features to it.
 But I copy-pasted everything from an AI chat, and that AI was often "stupid." Coding a simple program was simply hard to do.
 
-I was versioning by a number in the program title and downloading the latest from main branch.
+I was versioning by a number in the program title and downloading the latest from the main branch.
 
 Prompt -> Wait -> Prompt -> Wait -> Commit -> Download -> Repeat
 
@@ -44,7 +44,7 @@ And now, in August 2026, I discovered CodeRabbit (yeah, AI started talking with 
 It was free and found bugs in Claude Code, which was good, but now it is EVEN better.
 
 Like I said, `Now I keep versions in some .json files and release using GitHub releases`, but in certain repos I have CHANGELOG.md and a GitHub action
-Prompt -> Wait x2 -> Release -> Update -> Repeat
+Prompt -> Wait -> Release -> Update -> Repeat
 
 Also worth mentioning that in August 2026 I discovered Vercel previews, which helped with my web apps like visual-astro - I no longer needed to merge to see if it looks like it should.
 
