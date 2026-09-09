@@ -14,12 +14,31 @@ layout: default
     <main>
         {{ content }}
     </main>
+
+    <section class="comments">
+        <script src="https://giscus.app/client.js"
+                data-repo="jan-tdy/jan-tdy"
+                data-repo-id="R_kgDOPjXwlA"
+                data-category="Announcements"
+                data-category-id="DIC_kwDOPjXwlM4DFGSA"
+                data-mapping="pathname"
+                data-strict="0"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="bottom"
+                data-theme="dark"
+                data-lang="en"
+                crossorigin="anonymous"
+                async>
+        </script>
+    </section>
 </article>
 
 <style>
-    article header { border-bottom: 2px solid #eee; padding-bottom: 20px; margin-bottom: 30px; }
+    article header { border-bottom: 2px solid #30363d; padding-bottom: 20px; margin-bottom: 30px; }
     h1 { margin: 0; }
-    .post-date { color: #666; font-size: 0.9rem; margin: 10px 0; }
-    nav a { color: #0066cc; text-decoration: none; font-weight: bold; }
+    .post-date { color: #8b949e; font-size: 0.9rem; margin: 10px 0; }
+    nav a { color: #58a6ff; text-decoration: none; font-weight: bold; }
     nav a:hover { text-decoration: underline; }
+    .comments { margin-top: 40px; padding-top: 30px; border-top: 2px solid #30363d; }
 </style>
