@@ -5,7 +5,7 @@ order: 6
 ---
 🔌 A Home Assistant custom integration that connects to a running INDI server (`indiserver`) as an additional client — the same way CCDciel, KStars/EKOS or `indi_getprop` would.
 
-It is used in (DevControl2)[jan-tdy.github.io/jan-tdy/projects/devcontrol2] primarily to park telescopes when the roof needs to close (e.g. when rain is coming)
+It is used in [DevControl2](jan-tdy.github.io/jan-tdy/projects/devcontrol2) primarily to park telescopes when the roof needs to close (e.g. when rain is coming)
 
 It never takes exclusive control of a device: it reads whatever properties the server broadcasts and can send its own commands when a property allows it. That lets you park the mount on rain or high wind, watch a CCD's temperature, preview its latest frame, or trigger dome/roof and power-switch properties, all from Home Assistant dashboards and automations. The INDI protocol is implemented directly in Python, no `pyindi-client`/SWIG dependency.
 
