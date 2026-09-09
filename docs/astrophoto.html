@@ -10,8 +10,18 @@ permalink: /astrophoto
 <!-- 1. Build a temporary sortable index array -->
 {% assign sorted_astro_files = "" | split: "," %}
 
+<!-- Lookup of description files: a .txt/.md with the same basename as an image becomes its caption -->
+{% assign astro_desc_txt = "" | split: "," %}
+{% assign astro_desc_md = "" | split: "," %}
+
 {% for file in site.static_files %}
     {% if file.path contains '/assets/astro/' %}
+        {% if file.extname == '.txt' %}
+            {% assign astro_desc_txt = astro_desc_txt | push: file.basename %}
+        {% elsif file.extname == '.md' %}
+            {% assign astro_desc_md = astro_desc_md | push: file.basename %}
+        {% endif %}
+
         {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png' or file.extname == '.gif' or file.extname == '.webp' %}
 
             {% assign name_parts = file.basename | split: "-" %}
@@ -67,16 +77,28 @@ permalink: /astrophoto
         {% endfor %}
         {% assign photo_title = title_words | join: " " | capitalize %}
 
+        <!-- A .txt/.md file with the same basename as the image (e.g. photo.jpg + photo.txt) supplies its description -->
+        {% assign photo_description = "" %}
+        {% if astro_desc_txt contains filename_clean %}
+            {% capture photo_description %}{% include_relative assets/astro/{{ filename_clean }}.txt %}{% endcapture %}
+        {% elsif astro_desc_md contains filename_clean %}
+            {% capture photo_description %}{% include_relative assets/astro/{{ filename_clean }}.md %}{% endcapture %}
+        {% endif %}
+        {% assign photo_description = photo_description | strip %}
+
         <div class="photo-card">
             <div class="photo-wrapper">
-                <img src="{{ img_path | relative_url }}" 
-                     alt="{{ photo_title }} — Shot on {{ captured_date }}" 
+                <img src="{{ img_path | relative_url }}"
+                     alt="{{ photo_title }} — Shot on {{ captured_date }}"
                      class="gallery-trigger"
+                     data-desc="{{ photo_description | escape }}"
                      loading="lazy">
             </div>
             <div class="photo-info">
                 <h3 class="photo-title">{{ photo_title }}</h3>
-                
+                {% if photo_description != "" %}
+                    <p class="photo-desc">{{ photo_description }}</p>
+                {% endif %}
                 <div class="metadata-specs">
                     <span class="meta-item">📅 {{ captured_date }}</span>
                 </div>
@@ -143,6 +165,13 @@ permalink: /astrophoto
         margin: 0 0 8px 0;
         font-size: 1.1rem;
         color: #c9d1d9;
+    }
+
+    .photo-desc {
+        margin: 0 0 10px 0;
+        font-size: 0.9rem;
+        color: #8b949e;
+        line-height: 1.4;
     }
 
     .metadata-specs {
@@ -213,7 +242,8 @@ permalink: /astrophoto
             img.addEventListener("click", function() {
                 modal.style.display = "block";
                 modalImg.src = this.src;
-                captionText.innerHTML = this.alt;
+                const desc = this.getAttribute("data-desc");
+                captionText.innerHTML = desc ? this.alt + "<br><br>" + desc : this.alt;
             });
         });
 
