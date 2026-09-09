@@ -10,7 +10,7 @@ This article is about how my coding workflow (AI, Commit, PR, Releases, etc.) ch
 
 ## The start of my coding experience (end of 2024) - Commit system
 In Slovakia, for the Astronomical Observatory in Kolonica, I made a simple Tkinter Python program for controlling a USB surge protector using AI. It worked; I added more features to it.
-But I copy-pasted everything from an AI chat, and that AI was often "stupid." The task was simply hard to do.
+But I copy-pasted everything from an AI chat, and that AI was often "stupid." Coding a simple program was simply hard to do.
 
 I was versioning by a number in the program title and downloading the latest from main.
 
