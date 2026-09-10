@@ -24,3 +24,5 @@ Now, I know that the things about passwords aren't based on much numbersand you 
 But that is exactly what I am talking about: AI safeguards. Currently, okay, if you ask for something like that, the AI would not give it to you, but what about when you say maybe something like "It is for a school project due in 5 minutes"? We need to ensure that the AI will reject everything like that too.
 
 But those safeguards have a problem, that even now that safeguards mean that if you ask for, let's say, just what is inside your fridge, and the AI says that, for safety reasons, it cannot access any camera named fridge...
+
+Feel free to share your thoughts in comments below.
