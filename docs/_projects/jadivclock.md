@@ -5,6 +5,10 @@ order: 9
 ---
 🕹️ A custom ESP32-based control panel built on a CrowPanel 3.5" Advanced touch display.
 
+<details>
+
+<summary>Images</summary>
+
 <table>
   <tr>
     <td width="50%">
@@ -23,6 +27,8 @@ order: 9
     </td>
   </tr>
 </table>
+
+</details>
 
 A DevControl Home ESPHome desktop panel to control lights, a robot vacuum, and announce codes without needing a phone or tablet.
 
