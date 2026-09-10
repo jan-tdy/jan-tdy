@@ -8,6 +8,10 @@ state: DRAFT
 There is now a 10% (!) chance that the AI we developed destroys us within the next decade.
 So for start, we need to realize that in the history of planet Earth (yes, humans are on Earth for millions of years, but earth is maybe 20x older) the life was many times destroyed, asteroids, collisions, cold era more... But now we have made AI to destroy ourselves? No, thanks.
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">To be clear, as we say in our latest Risk Report (https://t.co/pG69KaI7a4), I think the risk from present models is low. What I am worried about is superintelligence arising from recursive self-improvement, as we have said is happening faster than we thought (https://t.co/aQoIG2eJHM).</p>&mdash; Evan Hubinger (@EvanHub) <a href="https://x.com/EvanHub/status/2097528891846074828?ref_src=twsrc%5Etfw">September 9, 2026</a></blockquote>
+<script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
+
 AI is a great tool; a hammer is also a great tool, but AI is a level highter, nto only we are in middle of a poster-apocalypse (look at your street; all posters are made by AI) wich is like using hammer to destroy humans, but the AI (unlike hammer) can itself destoy us.
 
 I am not saying AI should not exist; it is useful. I have seen somewhere that some AI even created a more detailed map of the planet Venus...
