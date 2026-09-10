@@ -1,6 +1,6 @@
 ---
 title: "JadivClock v3"
-image: /assets/projects/jadivclock.jpeg
+image: /assets/projects/jadivclock.jpg
 order: 9
 ---
 🕹️ A custom ESP32-based control panel built on a CrowPanel 3.5" Advanced touch display.
