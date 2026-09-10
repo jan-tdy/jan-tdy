@@ -8,21 +8,22 @@ order: 9
 <table>
   <tr>
     <td width="50%">
-      <img src="{{ '/assets/posts/jclock0.jpg' | relative_url }}" alt="JadivClock view 1">
+      <img src="{{ '/assets/projects/jclock0.jpg' | relative_url }}" alt="JadivClock view 1">
     </td>
     <td width="50%">
-      <img src="{{ '/assets/posts/jclock1.jpg' | relative_url }}" alt="JadivClock view 2">
+      <img src="{{ '/assets/projects/jclock1.jpg' | relative_url }}" alt="JadivClock view 2">
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="{{ '/assets/posts/jclock2.jpg' | relative_url }}" alt="JadivClock view 3">
+      <img src="{{ '/assets/projects/jclock2.jpg' | relative_url }}" alt="JadivClock view 3">
     </td>
     <td width="50%">
-      <img src="{{ '/assets/posts/jclock3.jpg' | relative_url }}" alt="JadivClock view 4">
+      <img src="{{ '/assets/projects/jclock3.jpg' | relative_url }}" alt="JadivClock view 4">
     </td>
   </tr>
 </table>
+
 A DevControl Home ESPHome desktop panel to control lights, a robot vacuum, and announce codes without needing a phone or tablet.
 
 - **Hardware:** Elecrow CrowPanel — 2.4", 3.5" Advanced, and 4.3" CYD.
