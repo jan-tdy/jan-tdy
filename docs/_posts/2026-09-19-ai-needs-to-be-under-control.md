@@ -4,9 +4,8 @@ title: "Control AI Before It Controls Us"
 date: 2026-09-19
 state: DRAFT
 ---
-
 There is now approximately a 10% (!) chance that the AI we developed will destroy us within the next decade.
-So, to start, we need to realize that throughout Earth's history (yes, humans have been on Earth for millions of years, but Earth is maybe 20x older), life has been destroyed many times: asteroids, collisions, cold eras, and more... But now we have made AI to destroy ourselves? No, thanks.
+Earth is billions of years old, while human history spans millions of years or less. Asteroids and ice ages have caused mass extinctions, but they did not destroy all life. We must not create AI that could destroy humanity.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">To be clear, as we say in our latest Risk Report (https://t.co/pG69KaI7a4), I think the risk from present models is low. What I am worried about is superintelligence arising from recursive self-improvement, as we have said is happening faster than we thought (https://t.co/aQoIG2eJHM).</p>&mdash; Evan Hubinger (@EvanHub) <a href="https://x.com/EvanHub/status/2097528891846074828?ref_src=twsrc%5Etfw">September 9, 2026</a></blockquote>
 <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
@@ -16,10 +15,11 @@ So, to start, we need to realize that throughout Earth's history (yes, humans ha
 
 AI is a great tool; a hammer is also a great tool, but AI is a level higher. Not only are we in the middle of a post-apocalypse (look at your street; all posters are made by AI), which is like using a hammer to destroy humans, but AI (unlike a hammer) can itself destroy us.
 
-I am not saying AI should not exist; it is useful. I have seen somewhere that some AI even created a more detailed map of the planet Venus...
+I am not saying AI should not exist; it is useful.
+Anthropic reports that Claude Fable 5.1 helped create a high-resolution elevation map of about one-third of Venus from NASA Magellan radar data. [Source: Anthropic](https://www.anthropic.com/claude-fable-and-mythos-5-1)
 But we should focus on safety more than racing to see who has the cheapest model that scores 99 percent on some benchmark. 
 
-An AI that finds an exploit in some important software is nice, but an AI that finds an exploit in itself is... not a very great idea.
+An AI that finds an exploit in some important software is nice, but an AI that finds an exploit in itself (and uses it) is... not a very great idea.
 
 That is not all; let's say we are safe, but what if a publicly available AI can crack any password in seconds? 
 More capable AI could reduce the cost of phishing, vulnerability discovery, and password-guessing attacks. Security teams should respond with phishing-resistant multi-factor authentication, rate limits, breach monitoring, and secure password managers.
