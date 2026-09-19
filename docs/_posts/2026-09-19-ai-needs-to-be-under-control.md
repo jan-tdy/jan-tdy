@@ -10,9 +10,6 @@ Earth is billions of years old, while human history spans millions of years or l
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">To be clear, as we say in our latest Risk Report (https://t.co/pG69KaI7a4), I think the risk from present models is low. What I am worried about is superintelligence arising from recursive self-improvement, as we have said is happening faster than we thought (https://t.co/aQoIG2eJHM).</p>&mdash; Evan Hubinger (@EvanHub) <a href="https://x.com/EvanHub/status/2097528891846074828?ref_src=twsrc%5Etfw">September 9, 2026</a></blockquote>
 <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Jacob is correct here—we really do earnestly believe AI could kill all humans! I personally think it is &amp;gt;10% within the next decade. I believe Anthropic is trying its best, but we do not yet have a plan to solve alignment for superintelligence and are not clearly on track to.</p>&mdash; Evan Hubinger (@EvanHub) <a href="https://x.com/EvanHub/status/2097497037956891126?ref_src=twsrc%5Etfw">September 9, 2026</a></blockquote>
-<script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
-
 AI is a great tool; a hammer is also a great tool, but AI is a level higher. Not only are we in the middle of a post-apocalypse (look at your street; all posters are made by AI), which is like using a hammer to destroy humans, but AI (unlike a hammer) can itself destroy us.
 
 I am not saying AI should not exist; it is useful.
