@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Control AI Before It Controls Us"
-date: 2026-09-16
+date: 2026-09-19
 state: DRAFT
 ---
 
@@ -12,7 +12,7 @@ So, to start, we need to realize that in the history of planet Earth (yes, human
 <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 
-AI is a great tool; a hammer is also a great tool, but AI is a level highter, nto only we are in middle of a poster-apocalypse (look at your street; all posters are made by AI) wich is like using a hammer to destroy humans, but AI (unlike a hammer) can itself destoy us.
+AI is a great tool; a hammer is also a great tool, but AI is a level highter, nto only we are in middle of a post-apocalypse (look at your street; all posters are made by AI), which is like using a hammer to destroy humans, but AI (unlike a hammer) can itself destroy us.
 
 I am not saying AI should not exist; it is useful. I have seen somewhere that some AI even created a more detailed map of the planet Venus...
 But we should focus on safety more than racing to see who has the cheapest model that scores 99 percent on some benchmark. 
@@ -31,4 +31,4 @@ But those safeguards have a problem even now: if you ask for, let's say, just wh
 
 Shorter version of this article: AI companies should now think about how to make AI both smarter and safer
 
-Feel free to share your thoughts in comments below.
+Feel free to share your thoughts in the comments below.
