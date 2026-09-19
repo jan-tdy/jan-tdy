@@ -5,8 +5,8 @@ date: 2026-09-19
 state: DRAFT
 ---
 
-There is now approximately a 10% (!) chance that the AI we developed destroys us within the next decade.
-So, to start, we need to realize that in the history of planet Earth (yes, humans have been on Earth for millions of years, but Earth is maybe 20x older), life was many times destroyed: asteroids, collisions, cold era more... But now we have made AI to destroy ourselves? No, thanks.
+There is now approximately a 10% (!) chance that the AI we developed will destroy us within the next decade.
+So, to start, we need to realize that throughout Earth's history (yes, humans have been on Earth for millions of years, but Earth is maybe 20x older), life has been destroyed many times: asteroids, collisions, cold eras, and more... But now we have made AI to destroy ourselves? No, thanks.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">To be clear, as we say in our latest Risk Report (https://t.co/pG69KaI7a4), I think the risk from present models is low. What I am worried about is superintelligence arising from recursive self-improvement, as we have said is happening faster than we thought (https://t.co/aQoIG2eJHM).</p>&mdash; Evan Hubinger (@EvanHub) <a href="https://x.com/EvanHub/status/2097528891846074828?ref_src=twsrc%5Etfw">September 9, 2026</a></blockquote>
 <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
@@ -21,7 +21,7 @@ But we should focus on safety more than racing to see who has the cheapest model
 
 An AI that finds an exploit in some important software is nice, but an AI that finds an exploit in itself is... not a very great idea.
 
-That is not all; let's say we are safe, but what about when an AI that is publicly available to everyone can crack any password in seconds? 
+That is not all; let's say we are safe, but what if a publicly available AI can crack any password in seconds? 
 More capable AI could reduce the cost of phishing, vulnerability discovery, and password-guessing attacks. Security teams should respond with phishing-resistant multi-factor authentication, rate limits, breach monitoring, and secure password managers.
 
 Now, I know that the things about passwords I wrote above aren't based on many numbers; you can also say that the AI has some safeguards.
@@ -31,5 +31,10 @@ But those safeguards have a problem even now: if you ask for, let's say, just wh
 A safeguard that blocks harmless requests too often will not earn user trust. Developers must measure both harmful outputs and incorrect refusals.
 
 Shorter version of this article: AI companies should now think about how to make AI both smarter and safer
+
+
+Disclaimer: This article expresses my personal opinions and understanding of AI safety. It is for general information and discussion only. It is not legal, technical, financial, medical, or security advice. AI capabilities, risks, and forecasts are uncertain, and experts may disagree about them. I do not guarantee that every statement is complete, current, or accurate. Readers should verify important claims with reliable sources and seek qualified professional advice for decisions that could affect them or others.
+Any numbers, timelines, and predictions in this article are estimates or opinions unless I link to a source.
+
 
 Feel free to share your thoughts in the comments below.
