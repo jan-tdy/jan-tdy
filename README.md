@@ -13,7 +13,8 @@ I cannot fix all issues on all my repos in one day, but you can view my issue an
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fha-indi-client&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/ha-indi-client)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fcodemaster&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/codemaster)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Flinux-print&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/linux-print)
-
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fjapyscope-remote&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/japyscope-remote)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fjadiv-timelapse&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/jadiv-timelapse)
 
 ### 🔭 What I'm currently working on:
 *   **DevControl 2 System for Bombol.Space**: Setting up and managing a control system for a telescope hosting facility in Piconcillo.
