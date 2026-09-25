@@ -18,3 +18,5 @@ Ok, doing it yourself still costs some time, but in money terms it is free. But 
 
 Hope this article helped you.
 Feel free to share your thoughts in the comments below.
+
+Disclaimer: The prices in this article are examples. Actual costs vary by supplier, location, and the materials or tools you already own. The comparison does not include every cost of building or selling a product.
