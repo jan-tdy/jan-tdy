@@ -7,7 +7,7 @@ date: 2026-09-10
 Hi all!
 This article is about how my coding workflow (AI, Commit, PR, Releases, etc.) changed.
 
-> **Disclosure:** This post describes my personal experience. I am not affiliated with the providers of the tools mentioned here, and they do not endorse this post.
+> **Disclosure:** This post describes my personal experience. It contains a referral link for Claude — if you sign up through it, I may receive a benefit. Aside from that, I am not affiliated with the providers of the tools mentioned here, and they do not endorse this post.
 
 ![Just some stupid image]({{ "/assets/posts/chaos.png" | relative_url }})
 
@@ -28,6 +28,8 @@ By the way, you can see the PR for this post here: https://github.com/jan-tdy/ja
 Then I continued contributing to [mampfes/hacs_waste_collection_schedule](https://github.com/mampfes/hacs_waste_collection_schedule) with [Google Gemini](https://gemini.google.com/),
 and thanks to the amazing maintainers of mampfes/hacs_waste_collection_schedule, I discovered [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview), which changed everything!
 Thank you very much @markvp and @bbr111!
+
+Want to try it yourself? Here's my [Claude referral link](https://claude.ai/referral/uwVNLsydFA).
 
 So that is when everything changed.
 - I started using pull requests for review and merging instead of managing changes directly.
