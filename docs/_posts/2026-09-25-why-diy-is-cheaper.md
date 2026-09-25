@@ -2,7 +2,6 @@
 layout: post
 title: "Why is DIY most of the time cheaper?"
 date: 2026-09-25
-state: DRAFT
 ---
 Ever wondered why DIY is cheaper most of the time?
 
