@@ -11,7 +11,7 @@ I cannot fix all issues on all my repos in one day, but you can view my issue an
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fvisual-astro&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/visual-astro)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Ffridge-core&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/fridge-core)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fha-indi-client&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/ha-indi-client)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2FTapoHub-ADV&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/TapoHub-ADV)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fha-smartphone-card&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/ha-smartphone-card)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Flinux-print&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/linux-print)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fjapyscope-remote&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/japyscope-remote)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fjadiv-timelapse&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/jadiv-timelapse)
@@ -20,6 +20,7 @@ I cannot fix all issues on all my repos in one day, but you can view my issue an
 *   **DevControl 2 System for Bombol.Space**: Setting up and managing a control system for a telescope hosting facility in Piconcillo.
 *   **DevControl Home**: Building a robust, fully local smart home automation system based on Home Assistant (HAOS) and Raspberry Pi.
 *   **Visual Astro**: Building an open-source web app for CCD and visual astronomy measurements, featuring a comprehensive suite of essential tools.
+*   **JapyScope Remote**: Building an advanced controller for goto telescopes
 *   Developing custom hardware solutions, environmental monitoring sensors, and more.
 
 ![](./profile-3d-contrib/profile-season-animate.svg)
