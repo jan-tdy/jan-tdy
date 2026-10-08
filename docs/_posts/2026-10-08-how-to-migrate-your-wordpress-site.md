@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to migrate your WordPress site using WPvivid"
-date: 2026-10-10
+date: 2026-10-08
 ---
 First, sorry that this post is a bit late (I try to write one every week).
 Also, you may see that this post is a bit different in style from the others, and that is right. Also, stay tuned for tech reviews in the future.
@@ -12,7 +12,7 @@ Ok, so let's get into this!
 
 Please keep in mind that this guide assumes you have WPvivid already installed on both websites.
 
-1. Generate an key
+1. Generate a key
 On the **DESTINATION** website, go to WPvivid -> Key.
 Select an appropriate expiration time and click Generate.
 
