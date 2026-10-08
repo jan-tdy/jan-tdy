@@ -23,7 +23,7 @@ Select what you want to migrate, and click Clone and transfer.
 
 3. Applying the "backup"
 On the **DESTINATION** website, go to WPvivid -> Backup & Restore.
-Click Restore on the latest backup (And read all disclaimers before doing so).
+Scan for received backups, then click Restore on the backup transferred from the source (and read all disclaimers first).
 
 4. Done
 Congratulations, you migrated your website!
