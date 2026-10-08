@@ -18,6 +18,7 @@ Select an appropriate expiration time and click Generate.
 
 2. Starting the transfer
 On the **SOURCE** website, go to WPvivid -> Auto-Migration.
+Paste the key generated on the destination website and click Save.
 Select what you want to migrate, and click Clone and transfer.
 
 3. Applying the "backup"
