@@ -172,6 +172,24 @@
             margin: 0 0 16px 0;
         }
 
+        /* Footer */
+        footer {
+            border-top: 1px solid #30363d;
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+            font-size: 13px;
+            color: #8b949e;
+        }
+
+        footer a {
+            color: #8b949e;
+        }
+
+        footer a:hover {
+            color: #58a6ff;
+        }
+
         @media (max-width: 768px) {
             nav ul {
                 gap: 15px;
@@ -214,5 +232,12 @@
     <main>
         {{ content }}
     </main>
+
+    <!-- Footer -->
+    <footer>
+        <a href="{{ site.baseurl }}/disclaimer">Disclaimer</a>
+        &middot;
+        <a href="https://github.com/jan-tdy/jan-tdy/blob/main/LICENSE">License</a>
+    </footer>
 </body>
 </html>
