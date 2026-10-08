@@ -33,4 +33,4 @@ Disclosure: This post describes my personal process. It's not sponsored content,
 
 This guide describes what worked for me. Migrating a site can lead to data loss if something goes wrong (hosting incompatibility, WordPress/plugin version mismatch, database size, etc.). Always make your own backup before migrating, outside of WPvivid. I'm not responsible for data loss or downtime — proceed at your own risk and verify compatibility with your own hosting.
 
-Steps/UI may differ in newer WPvivid versions — check the official docs for the current process." — since plugins change and your guide could go stale over time
+Steps and UI may differ in newer WPvivid versions. Check the official docs for the current process.
