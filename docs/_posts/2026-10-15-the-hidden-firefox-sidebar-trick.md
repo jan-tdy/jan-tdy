@@ -39,3 +39,7 @@ Why hasn't anyone told you about this before? Because technically, we are "misus
 Framing restrictions can still block the trick: a site can refuse to be embedded via the `X-Frame-Options` header or a CSP `frame-ancestors` policy (and Firefox loads the provider URL in a XUL `<browser>` element here, not a plain HTML `<iframe>`, so behavior isn't guaranteed to match what you'd expect from embedding in a regular page). Many major sites (like Todoist or Notion) block this kind of embedding outright. If you see a blank gray screen, that website's policy is blocking the trick.
 
 Google Workspace (Gmail, Google Chat) worked for me without issues, giving a sleek, native-feeling side panel layout — but whether a given site works can depend on your Firefox version and that site's own policies, so your results may vary.
+
+Disclosure: this post describes my personal experience. It's not sponsored content, and I have no affiliation with Mozilla, Google, Todoist, or Notion — none of them endorse this post or this use of the feature.
+
+This is not an officially supported use of `about:config` or the AI Chatbot sidebar. Editing `about:config` in general can affect browser stability or behavior if you change the wrong preference — only change the one listed here, and proceed at your own risk. I'm not responsible for any issues that result from following this guide.
