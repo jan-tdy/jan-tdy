@@ -1,10 +1,29 @@
-title: My Twenty Nineteen TEST
-description: A static replica of the WordPress theme on GitHub Pages.
-baseurl: "" # Leave empty for username.github.io root sites
-url: "https://yourusername.github.io"
+title: T
+description: A developer, hardware tinkerer, and astronomy enthusiast from Slovakia
+url: https://jan-tdy.github.io
+baseurl: /jan-tdy
 
-# Load the custom community port
+# Plugins
 plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-remote-theme
 
 remote_theme: easiestpage/jekyll-twentynineteen
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+      
