@@ -1,29 +1,30 @@
 title: T
 description: A developer, hardware tinkerer, and astronomy enthusiast from Slovakia
-url: https://jan-tdy.github.io
-baseurl: /jan-tdy
+url: "https://jan-tdy.github.io"
+baseurl: "/jan-tdy"
 
-# Plugins
+# Core Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins (Bypassing remote_theme completely)
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-remote-theme
-
-remote_theme: easiestpage/jekyll-twentynineteen
-
-# Build settings
-markdown: kramdown
-highlighter: rouge
 
 # Collections
 collections:
   projects:
     output: true
     permalink: /projects/:name
+
 defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
   - scope:
       path: ""
       type: projects
     values:
       layout: project
-      
