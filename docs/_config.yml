@@ -1,0 +1,10 @@
+title: My Twenty Nineteen TEST
+description: A static replica of the WordPress theme on GitHub Pages.
+baseurl: "" # Leave empty for username.github.io root sites
+url: "https://yourusername.github.io"
+
+# Load the custom community port
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: easiestpage/jekyll-twentynineteen
