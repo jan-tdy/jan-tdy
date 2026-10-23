@@ -1,28 +1,26 @@
-title: T
+title: Ján Dubovský - Developer & Astronomer
 description: A developer, hardware tinkerer, and astronomy enthusiast from Slovakia
-url: "https://jan-tdy.github.io"
-baseurl: "/jan-tdy"
+url: https://jan-tdy.github.io
+baseurl: /jan-tdy
 
-# Core Build settings
-markdown: kramdown
-highlighter: rouge
+# Theme
+theme: jekyll-theme-slate
 
-# Plugins (Bypassing remote_theme completely)
+# Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
 
 # Collections
 collections:
   projects:
     output: true
     permalink: /projects/:name
-
 defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
   - scope:
       path: ""
       type: projects
