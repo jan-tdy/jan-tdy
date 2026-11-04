@@ -1,11 +1,9 @@
 ## Hi there, I'm Ján from Slovakia 👋
 ![Badge](https://hitscounter.dev/api/hit?url=github.com%2Fjan-tdy&label=Visitors&icon=github&color=%23198754&message=&style=for-the-badge&tz=UTC)
 
-I am a developer, hardware tinkerer, and a little enthusiast of stars. Long-time user of Home Assistant.
+I am a frontend designer, hardware tinkerer, and a little enthusiast of stars. Long-time user of Home Assistant.
 
-**I create useful astronomical tools and H.A. integrations to make the world a better place to live.**
-
-I cannot fix all issues on all my repos in one day, but you can view my issue and pr queue [here](https://github.com/issues/assigned?q=state%3Aopen+%28is%3Aissue+OR+is%3Apr%29++archived%3Afalse+%28user%3Ajan-tdy+OR+%28user%3Amampfes+AND+assignee%3Ajan-tdy%29%29+sort%3Acreated-asc)
+**I create useful astronomical tools and H.A. integrations (with AI) to make the world a better place to live.**
 
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Ftapovac-adv&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/tapovac-adv)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fvisual-astro&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/visual-astro)
@@ -15,13 +13,6 @@ I cannot fix all issues on all my repos in one day, but you can view my issue an
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Flinux-print&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/linux-print)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fjapyscope-remote&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/japyscope-remote)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fjadiv-timelapse&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/jadiv-timelapse)
-
-### 🔭 What I'm currently working on:
-*   **DevControl 2 System for Bombol.Space**: Setting up and managing a control system for a telescope hosting facility in Piconcillo.
-*   **DevControl Home**: Building a robust, fully local smart home automation system based on Home Assistant (HAOS) and Raspberry Pi.
-*   **Visual Astro**: Building an open-source web app for CCD and visual astronomy measurements, featuring a comprehensive suite of essential tools.
-*   **JapyScope Remote**: Building an advanced controller for goto telescopes
-*   Developing custom hardware solutions, environmental monitoring sensors, and more.
 
 ![](./profile-3d-contrib/profile-season-animate.svg)
 
@@ -36,8 +27,6 @@ I cannot fix all issues on all my repos in one day, but you can view my issue an
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)
 
-*   **Hardware:** Raspberry Pi (4 & 5), Microcontrollers, DIY Electronics
-*   **Software & Protocols:** Home Assistant OS, MQTT, Local Automations
 
 ### 📫 How to reach me:
 *   🌐 **Website:** https://jan-tdy.github.io/jan-tdy/
