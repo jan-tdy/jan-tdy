@@ -12,7 +12,7 @@ I am a frontend designer, hardware tinkerer, and a little enthusiast of stars. L
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fha-smartphone-card&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/ha-smartphone-card)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Flinux-print&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/linux-print)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fjapyscope-remote&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/japyscope-remote)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fjadiv-timelapse&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/jadiv-timelapse)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fha-what-happened-card&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/ha-what-happened-card)
 
 ![](./profile-3d-contrib/profile-season-animate.svg)
 
