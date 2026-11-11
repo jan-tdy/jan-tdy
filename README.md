@@ -5,6 +5,8 @@ I am a frontend designer, hardware tinkerer, and a little enthusiast of stars. L
 
 **I create useful astronomical tools and H.A. integrations (with AI) to make the world a better place to live.**
 
+Sometimes, I select a meaningful project and help maintain it long-term.
+
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Ftapovac-adv&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/tapovac-adv)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Fvisual-astro&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/visual-astro)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=jan-tdy&repo=jan-tdy%2Ffridge-core&description_lines_count=2&theme=dark)](https://github.com/jan-tdy/fridge-core)
